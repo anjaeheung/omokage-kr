@@ -1,0 +1,5 @@
+sites/
+tools/__pycache__/
+tools/build.log
+_adobe/
+*.args.txt

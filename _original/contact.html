@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>お問い合わせ | 劇団おもかげ</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="shared/css/memory.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-memory="08">
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="logo">
+        劇団おもかげ
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">
+        MENU
+      </button>
+
+    </div>
+
+    <nav id="globalNav">
+
+      <a href="index.html">トップ</a>
+      <a href="about.html">劇団紹介</a>
+      <a href="members.html">団員紹介</a>
+      <a href="stage.html">公演情報</a>
+      <a href="archive.html">過去公演</a>
+      <a href="audition.html">入団案内</a>
+      <a href="news.html">お知らせ</a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="page-hero">
+
+    <img src="images/topbanner.png" alt="劇団おもかげ">
+
+    <div class="page-hero-overlay"></div>
+
+    <div class="page-hero-content">
+
+      <h1>お問い合わせ</h1>
+
+      <p>CONTACT</p>
+
+    </div>
+
+    
+
+  </section>
+
+  <!-- MAIN -->
+
+  <main class="about-page">
+
+    <section class="about-box">
+
+      <h2>
+        お問い合わせ
+      </h2>
+
+      <p>
+        公演・チケット・取材等に関するお問い合わせは、
+        下記フォームよりご連絡ください。
+      </p>
+
+      <p class="contact-note">
+        ※団員個人に関するお問い合わせには
+        お答えできない場合がございます。
+      </p>
+
+    </section>
+
+    <!-- FORM -->
+
+    <section class="about-box">
+
+      <form class="contact-form" id="contactForm">
+
+        <div class="form-group">
+
+          <label>
+            お名前
+          </label>
+
+          <input type="text" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            メールアドレス
+          </label>
+
+          <input type="email" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            お問い合わせ内容
+          </label>
+
+          <textarea rows="8" required></textarea>
+
+        </div>
+
+        <button type="submit" class="audition-submit">
+          送信する
+        </button>
+
+      </form>
+
+      <div class="audition-complete" id="contactComplete">
+
+        <p>
+          お問い合わせありがとうございました。
+        </p>
+
+        <p>
+          内容を確認のうえ、
+          担当者よりご連絡いたします。
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- MEMORY -->
+
+<div id="memory-container"></div>
+
+  <!-- SYSTEM NOTICE -->
+
+  <div class="system-notice">
+
+    <p>© うに</p>
+
+    <p>
+      このサイトはフィクションです。<br>
+      ARG作品につき、不穏・心理的表現を含みます。
+    </p>
+
+  </div>
+
+  <script src="shared/js/memory.js?v=39"></script>
+<script src="js/script.js"></script>
+
+  <script>
+
+    const contactForm =
+      document.getElementById("contactForm");
+
+    const contactComplete =
+      document.getElementById("contactComplete");
+
+    contactForm.addEventListener("submit", (e) => {
+
+      e.preventDefault();
+
+      contactForm.style.display = "none";
+
+      contactComplete.style.display = "block";
+
+    });
+
+  </script>
+
+</body>
+
+</html>

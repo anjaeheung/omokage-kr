@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>404 Not Found</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      background: #ffffff;
+
+      color: #111111;
+
+      font-family:
+        "Yu Gothic",
+        "Hiragino Sans",
+        sans-serif;
+
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .error-wrapper {
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  padding:
+    80px 7% 60px;
+
+  box-sizing: border-box;
+}
+
+    .error-code {
+
+  font-size: 64px;
+
+  font-weight: 700;
+
+  margin-bottom: 50px;
+
+  letter-spacing: 0.04em;
+
+  line-height: 1.1;
+
+  word-break: keep-all;
+}
+
+    .error-title {
+
+      font-size: 36px;
+
+      font-weight: 700;
+
+      line-height: 1.7;
+
+      margin-bottom: 35px;
+    }
+
+    .error-text {
+
+      max-width: 720px;
+
+      font-size: 15px;
+
+      line-height: 2.4;
+
+      color: #666666;
+
+      margin-bottom: 50px;
+    }
+
+    .back-button {
+
+      background: none;
+
+      border: none;
+
+      padding: 0;
+
+      font-size: 15px;
+
+      color: #111111;
+
+      cursor: pointer;
+
+      text-decoration: underline;
+
+      font-family: inherit;
+    }
+
+    /* =========================
+       LOADING
+    ========================= */
+
+    #loadingScreen {
+
+      position: fixed;
+
+      inset: 0;
+
+      background:
+        rgba(255,255,255,0.98);
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      z-index: 99999;
+
+      opacity: 0;
+
+      pointer-events: none;
+
+      transition:
+        0.4s,
+        background 1.2s,
+        color 1.2s;
+    }
+
+    #loadingScreen.show {
+
+      opacity: 1;
+
+      pointer-events: auto;
+    }
+
+    #loadingScreen.invert {
+
+      background: #000;
+
+      color: #fff;
+    }
+
+    #loadingScreen.invert .loading-dots span {
+
+      background: #fff;
+    }
+
+    .loading-box {
+
+      text-align: center;
+    }
+
+    .loading-text {
+
+      font-size: 14px;
+
+      letter-spacing: 0.08em;
+
+      margin-bottom: 16px;
+    }
+
+    .loading-dots {
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 8px;
+    }
+
+    .loading-dots span {
+
+      width: 6px;
+      height: 6px;
+
+      border-radius: 50%;
+
+      background: #000;
+
+      animation:
+        loadingBlink 1s infinite;
+    }
+
+    .loading-dots span:nth-child(2) {
+
+      animation-delay: 0.2s;
+    }
+
+    .loading-dots span:nth-child(3) {
+
+      animation-delay: 0.4s;
+    }
+
+    @keyframes loadingBlink {
+
+      0% {
+        opacity: 0.2;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0.2;
+      }
+
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media screen and (max-width: 900px) {
+
+      .error-wrapper {
+
+        padding:
+          100px 9% 80px;
+      }
+
+      .error-code {
+
+  font-size: 42px;
+
+  margin-bottom: 30px;
+
+  line-height: 1.15;
+
+  word-break: keep-all;
+}
+
+      .error-title {
+
+        font-size: 28px;
+
+        line-height: 1.6;
+      }
+
+      .error-text {
+
+        font-size: 14px;
+
+        line-height: 2.2;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="error-wrapper">
+
+    <h1 class="error-code">
+      404 Not Found
+    </h1>
+
+    <h2 class="error-title">
+      お探しのページは<br>
+      見つかりませんでした。
+    </h2>
+
+    <p class="error-text">
+
+      ご指定のURLに間違いがなければ、
+      ページが移動したか削除されているため
+      見つけることができませんでした。
+
+      大変お手数ですが、
+      トップページからお探しください。
+
+    </p>
+
+    <button
+      class="back-button"
+      id="backButton">
+
+      トップページへ戻る
+
+    </button>
+
+  </div>
+
+  <!-- LOADING -->
+
+  <div id="loadingScreen">
+
+    <div class="loading-box">
+
+      <p class="loading-text">
+        アクセス中...
+      </p>
+
+      <div class="loading-dots">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+    const backButton =
+      document.getElementById(
+        "backButton"
+      );
+
+    const loadingScreen =
+      document.getElementById(
+        "loadingScreen"
+      );
+
+    backButton.addEventListener(
+      "click",
+      () => {
+
+        loadingScreen.classList.add(
+          "show"
+        );
+
+        setTimeout(() => {
+
+          loadingScreen.classList.add(
+            "invert"
+          );
+
+        }, 2200);
+
+        setTimeout(() => {
+
+          window.location.href =
+            "/records/index.html";
+
+        }, 4200);
+
+      }
+    );
+
+  </script>
+
+</body>
+
+</html>

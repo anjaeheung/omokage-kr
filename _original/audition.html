@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>入団案内 | 劇団おもかげ</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"href="shared/css/memory.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-memory="06">
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="logo">
+        劇団おもかげ
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">
+        MENU
+      </button>
+
+    </div>
+
+    <nav id="globalNav">
+
+      <a href="index.html">トップ</a>
+      <a href="about.html">劇団紹介</a>
+      <a href="members.html">団員紹介</a>
+      <a href="stage.html">公演情報</a>
+      <a href="archive.html">過去公演</a>
+      <a href="audition.html">入団案内</a>
+      <a href="news.html">お知らせ</a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="page-hero">
+
+    <img src="images/topbanner.png" alt="劇団おもかげ">
+
+    <div class="page-hero-overlay"></div>
+
+    <div class="page-hero-content">
+
+      <h1>入団案内</h1>
+
+      <p>AUDITION</p>
+
+    </div>
+
+  </section>
+
+  <!-- MAIN -->
+
+  <main class="about-page">
+
+    <section class="about-box">
+
+      <h2>
+        新規団員募集
+      </h2>
+
+      <p>
+        劇団おもかげでは、
+        新規団員を募集しています。
+      </p>
+
+      <p>
+        年齢・性別・経験不問。<br>
+        演劇経験のない方も歓迎いたします。
+      </p>
+
+      <p>
+        ご応募をご希望の方は、
+        下記フォームより必要事項をご記入ください。
+      </p>
+
+    </section>
+
+    <!-- FORM -->
+
+    <section class="about-box">
+
+      <form class="audition-form" id="auditionForm">
+
+        <div class="form-group">
+
+          <label>
+            氏名
+          </label>
+
+          <input type="text" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            メールアドレス
+          </label>
+
+          <input type="email" required>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            年齢
+          </label>
+
+          <input type="text">
+
+        </div>
+
+        <div class="form-group">
+
+  <label>
+    性別
+  </label>
+
+  <select>
+
+    <option>女性</option>
+    <option>男性</option>
+    <option>回答しない</option>
+
+  </select>
+
+</div>
+
+        <div class="form-group">
+
+          <label>
+            演劇経験
+          </label>
+
+          <textarea rows="4"></textarea>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            出身地
+          </label>
+
+          <input type="text">
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            現在の居住形態
+          </label>
+
+          <select>
+
+            <option>実家</option>
+            <option>一人暮らし</option>
+            <option>同居</option>
+            <option>その他</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            利き手
+          </label>
+
+          <select>
+
+            <option>右利き</option>
+            <option>左利き</option>
+            <option>両利き</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            喫煙習慣
+          </label>
+
+          <select>
+
+            <option>吸わない</option>
+            <option>吸う</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            好きな食べ物
+          </label>
+
+          <input type="text">
+
+        </div>
+
+        <div class="form-group">
+
+          <label>
+            応募理由
+          </label>
+
+          <textarea rows="6"></textarea>
+
+        </div>
+
+        <button type="submit" class="audition-submit">
+          応募する
+        </button>
+
+      </form>
+
+      <div class="audition-complete" id="auditionComplete">
+
+        <p>
+          ご応募ありがとうございました。
+        </p>
+
+        <p>
+          合格の場合は担当者よりご連絡いたします。
+        </p>
+
+      </div>
+
+      <p class="audition-note">
+        ※ご応募内容によっては、
+        面談・追加ヒアリングをお願いする場合があります。
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- MEMORY -->
+
+<div id="memory-container"></div>
+
+  <!-- SYSTEM NOTICE -->
+
+  <div class="system-notice">
+
+    <p>© うに</p>
+
+    <p>
+      このサイトはフィクションです。<br>
+      ARG作品につき、不穏・心理的表現を含みます。
+    </p>
+
+  </div>
+
+  <script src="shared/js/memory.js?v=39"></script>
+<script src="js/script.js"></script>
+
+  <script>
+
+    const auditionForm = document.getElementById("auditionForm");
+    const auditionComplete = document.getElementById("auditionComplete");
+
+    auditionForm.addEventListener("submit", (e) => {
+
+      e.preventDefault();
+
+      auditionForm.style.display = "none";
+
+      auditionComplete.style.display = "block";
+
+    });
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+/* =========================
+   MEMORY BOOK
+========================= */
+
+.memory-book {
+  position: fixed;
+
+  left: 20px;
+  bottom: 20px;
+
+  z-index: 999;
+}
+
+.memory-toggle {
+  background: rgba(255,255,255,0.92);
+
+  border: 1px solid #ccc;
+
+  padding: 12px 20px;
+
+  cursor: pointer;
+
+  font-family: inherit;
+
+  color: #444;
+}
+
+.memory-content {
+  display: none;
+
+  width: 220px;
+
+  background: rgba(255,255,255,0.95);
+
+  color: #444 !important;
+
+  padding: 18px;
+
+  border: 1px solid #ccc;
+  border-top: none;
+
+  box-shadow:
+    0 0 20px rgba(0,0,0,0.25);
+}
+
+.memory-content * {
+
+  color: #444 !important;
+
+}
+
+.memory-content.open {
+  display: block;
+}
+
+.memory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  font-size: 0.85rem;
+}
+
+.memory-item {
+
+  padding: 4px 0;
+
+  line-height: 1.6;
+
+}
+
+.memory-item a {
+
+  color: #444;
+
+  text-decoration: none;
+
+}
+
+.memory-item a:hover {
+
+  color: #7a0f1d;
+
+}
+.memory-number {
+
+  color: #888;
+
+  margin-right: 8px;
+
+}
+
+.memory-locked {
+  color: #bbb;
+}
+
+.memory-open a:hover {
+  color: #7a0f1d;
+}
+
+@media screen and (max-width: 900px) {
+
+  .memory-book {
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .memory-toggle {
+    padding: 10px 16px;
+
+    font-size: 0.85rem;
+  }
+
+  .memory-content {
+    width: 180px;
+  }
+
+}
+
+.memory-content {
+  max-height: 28vh;
+
+  overflow-y: auto;
+}
+

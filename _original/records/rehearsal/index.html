@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>劇団おもかげ｜稽古記録</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <link rel="stylesheet"
+  href="../../shared/css/memory.css">
+
+</head>
+
+<body data-memory="10">
+
+  <!-- WARNING -->
+
+  <div class="access-warning">
+
+    <p>
+      ※劇団関係者以外の閲覧を禁止します
+    </p>
+
+  </div>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="system-title">
+        劇団おもかげ　内部連絡ページ
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">
+        MENU
+      </button>
+
+    </div>
+
+    <div class="header-bottom">
+
+      <nav id="globalNav">
+
+        <a href="../index.html">TOP</a>
+
+        <a href="index.html">稽古記録</a>
+        <a href="../equipment.html">備品管理</a>
+        <a href="../schedule.html">公演スケジュール</a>
+        <a href="../dormitory.html">寮について</a>
+
+      </nav>
+
+      <div class="search-area">
+
+        <span class="search-label">
+          サイト内検索
+        </span>
+
+        <div class="search-box">
+          <input type="text" placeholder="search">
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+
+  <main>
+
+    <section class="info-box">
+
+      <h2>
+        第15回公演　稽古場記録
+      </h2>
+
+      <p class="rehearsal-note">
+        ※管理者権限が必要な記録には
+        パスワード制限が設定されています。
+      </p>
+
+      <ul class="rehearsal-list">
+
+        <li>
+
+          <a href="rehearsal-01.html">
+            稽古場記録①
+          </a>
+
+        </li>
+
+        <li>
+
+          <a href="rehearsal-02.html">
+            稽古場記録②
+          </a>
+
+        </li>
+
+        <li>
+
+          <a href="#"
+            onclick="openPasswordModal('rehearsal-03.html')">
+
+            🔒 稽古場記録③
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a href="#"
+            onclick="openPasswordModal('rehearsal-04.html')">
+
+            🔒 稽古場記録④
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a href="#"
+            onclick="openPasswordModal('rehearsal-05.html')">
+
+            🔒 稽古場記録⑤
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a href="#"
+            onclick="openPasswordModal('rehearsal-06.html')">
+
+            🔒 稽古場記録⑥
+
+          </a>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+  </main>
+
+  <!-- PASSWORD MODAL -->
+
+  <div class="password-modal" id="passwordModal">
+
+    <div class="password-box">
+
+      <h3>
+        管理者権限確認
+      </h3>
+
+      <p>
+        パスワードを入力してください
+      </p>
+
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="password">
+
+      <div class="password-buttons">
+
+        <button onclick="submitPassword()">
+          ENTER
+        </button>
+
+        <button onclick="closePasswordModal()">
+          CLOSE
+        </button>
+
+      </div>
+
+      <p class="password-error" id="passwordError">
+        パスワードが違います
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- MEMORY -->
+
+ <div id="memory-container"></div>
+
+  <!-- SYSTEM NOTICE -->
+
+  <div class="system-notice">
+
+    <p>© うに</p>
+
+    <p>
+      このサイトはフィクションです。<br>
+      ARG作品につき、不穏・心理的表現を含みます。
+    </p>
+
+  </div>
+
+  <script src="../../shared/js/memory.js?v=39"></script>
+<script src="../js/script.js"></script>
+
+  <script>
+
+    let targetPage = "";
+
+    function openPasswordModal(target) {
+
+      targetPage = target;
+
+      document
+        .getElementById("passwordModal")
+        .classList.add("open");
+
+      document
+        .getElementById("passwordError")
+        .style.display = "none";
+
+      document
+        .getElementById("passwordInput")
+        .value = "";
+
+    }
+
+    function closePasswordModal() {
+
+      document
+        .getElementById("passwordModal")
+        .classList.remove("open");
+
+    }
+
+    function submitPassword() {
+
+      const password =
+        document.getElementById("passwordInput").value;
+
+      if (password === "reminiscence") {
+
+        window.location.href = targetPage;
+
+      } else {
+
+        document
+          .getElementById("passwordError")
+          .style.display = "block";
+
+      }
+
+    }
+
+  </script>
+
+</body>
+
+</html>
