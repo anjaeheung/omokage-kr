@@ -6,7 +6,7 @@ SITE = Path(__file__).resolve().parent.parent / "sites/omokage"
 bad = 0
 tmp = Path(tempfile.gettempdir()) / "omokage_jscheck.js"
 jobs = [(p, p.read_text(encoding="utf-8")) for p in SITE.rglob("*.js")]
-for p in sorted(SITE.glob("*.html")):
+for p in sorted(SITE.rglob("*.html")):
     for i, m in enumerate(re.finditer(r"<script(?![^>]*\bsrc=)[^>]*>(.*?)</script>", p.read_text(encoding="utf-8"), re.S)):
         jobs.append((Path("%s#%d" % (p.name, i)), m.group(1)))
 for name, code in jobs:
