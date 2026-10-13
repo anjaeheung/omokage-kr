@@ -20,13 +20,15 @@ for (var i = 0; i < S.items.length; i++) {
   if (it.svg) { // 글꼴 윤곽선(SVG)을 넣는 경우
     var g = tl.groupItems.createFromFile(new File(D + it.svg));
     var gb = g.geometricBounds, gw = gb[2] - gb[0], gh = gb[1] - gb[3];
-    var gs = Math.min((bx[2] - bx[0]) / gw, (bx[3] - bx[1]) / gh); g.resize(gs * 100, gs * 100);
+    var gs = Math.min((bx[2] - bx[0]) / gw, (bx[3] - bx[1]) / gh); if (it.stretch) g.resize(100 * (bx[2] - bx[0]) / gw, 100 * (bx[3] - bx[1]) / gh); else g.resize(gs * 100, gs * 100);
     gb = g.geometricBounds;
     var gx = it.align == "center" ? ((bx[0] + bx[2]) / 2 - (gb[0] + gb[2]) / 2) : (bx[0] - gb[0]);
     g.translate(gx, (-((bx[1] + bx[3]) / 2)) - ((gb[1] + gb[3]) / 2));
     function paint(o, col, sw) { if (o.typename == "PathItem") { o.filled = true; o.fillColor = col; o.stroked = sw > 0; if (sw > 0) { o.strokeColor = col; o.strokeWidth = sw; o.strokeJoin = StrokeJoin.ROUNDENDJOIN; } }
       else if (o.typename == "CompoundPathItem") { for (var q = 0; q < o.pathItems.length; q++) paint(o.pathItems[q], col, sw); }
       else if (o.typename == "GroupItem") { for (var q2 = 0; q2 < o.pageItems.length; q2++) paint(o.pageItems[q2], col, sw); } }
+    if (it.shear) { var Mg = app.getIdentityMatrix(); Mg.mValueB = Math.tan(it.shear * Math.PI / 180); g.transform(Mg, true, false, false, false, 1, Transformation.CENTER); }
+    if (it.vlean) { var Mv = app.getIdentityMatrix(); Mv.mValueC = Math.tan(it.vlean * Math.PI / 180); g.transform(Mv, true, false, false, false, 1, Transformation.CENTER); }
     if (it.halo) { var hg = g.duplicate(halo, ElementPlacement.PLACEATBEGINNING); paint(hg, rgb(it.halo.color), (it.sw || 0) + it.halo.width); }
     paint(g, rgb(it.color), it.sw || 0); gb = g.geometricBounds; rep.push(it.svg + ":" + Math.round(gb[2] - gb[0]) + "x" + Math.round(gb[1] - gb[3])); continue;
   }
