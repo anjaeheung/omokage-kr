@@ -268,20 +268,21 @@ def fix_flyer_zoom():
 
 
 def fix_cheer():
-    """엔딩 두 곳의 버튼 줄에 「원작자께 응원 메시지」(overrides/cheer.html, 공용 Worker iamnot-cheer, game=omokage)를
-    「처음으로 돌아가기」 앞에 넣는다(콘테 10-14, 아임낫·미정리기록·저택과 같게)."""
+    """엔딩 두 곳의 버튼 줄 「처음으로 돌아가기」 앞에 「후기 읽고 응원 남기기」를 넣는다 — 원작자 후기(overrides/afterword.html,
+    note 「劇団おもかげ あとがき」 번역) → 응원 메시지(overrides/cheer.html, 공용 Worker iamnot-cheer, game=omokage). 두 페이지는 탭으로 오간다(콘테 10-14)."""
     n = 0
     for rel, cls in (("records/true-end.html", "share-button white"), ("records/another-end.html", "share-button")):
         s = read(rel)
-        if "cheer.html" in s:
+        if "afterword.html" in s:
             n += 1; continue
         new = re.sub(r'(<a class="%s"\s+href="\.\./index\.html">)' % re.escape(cls),
-                     '<a class="%s" href="../cheer.html">원작자께 응원 메시지 남기기</a>\n\n      \\1' % cls, s, count=1)
+                     '<a class="%s" href="../afterword.html">후기 읽고 응원 남기기</a>\n\n      \\1' % cls, s, count=1)
         if new == s:
             FAIL.append("cheer: %s 버튼 줄을 못 찾음" % rel); continue
         write(rel, new); n += 1
-    if not (SITE / "cheer.html").exists():
-        FAIL.append("cheer: cheer.html 없음")
+    for f in ("cheer.html", "afterword.html"):
+        if not (SITE / f).exists():
+            FAIL.append("cheer: %s 없음" % f)
     print("  cheer   엔딩 응원 메시지 버튼 %d곳" % n)
 
 

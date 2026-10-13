@@ -44,6 +44,11 @@
     .meta { color: var(--sub); font-size: .78rem; margin-left: 6px; }
     .msg { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 4px; font-size: .95rem; }
     .dim { color: var(--sub); font-size: .85rem; }
+    .tabs { display: flex; border: 1px solid var(--line); background: var(--panel); }
+    .tabs a { flex: 1; text-align: center; padding: 12px 8px; color: var(--sub); text-decoration: none; font-family: "Noto Serif KR", serif; letter-spacing: .08em; }
+    .tabs a + a { border-left: 1px solid var(--line); }
+    .tabs a[aria-current="page"] { color: var(--text); background: rgba(201,163,106,.16); box-shadow: inset 0 -2px 0 var(--gold); }
+    .tabs a:hover { color: var(--text); }
     .back { text-align: center; font-size: .9rem; } .back a { color: #e2c08d; }
   </style>
 </head>
@@ -54,6 +59,8 @@
     <h1>응원 메시지 남기기</h1>
     <p class="byline">극단 오모카게 제15회 공연 「봄을 기다리며」 · 원작 うに</p>
   </header>
+
+  <nav class="tabs"><a href="afterword.html">후기</a><a href="cheer.html" aria-current="page">응원 메시지</a></nav>
 
   <div class="intro">
     <p>「봄을 기다리며」를 끝까지 플레이해 주셔서 감사합니다.<br>
@@ -94,7 +101,7 @@
     <ul class="list" id="list"><li class="dim">불러오는 중…</li></ul>
   </section>
 
-  <p class="back"><a href="index.html">처음으로 돌아가기</a></p>
+  <p class="back"><a href="afterword.html">← 원작자 후기</a> · <a href="index.html">처음으로 돌아가기</a></p>
 </main>
 <script>
   const API = "https://iamnot-cheer.cordellia.workers.dev/api/cheers", GAME = "omokage";
