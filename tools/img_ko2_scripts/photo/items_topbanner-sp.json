@@ -9,7 +9,7 @@
     28,
     17
    ],
-   "sw": 2.5,
+   "sw": 1.8,
    "box": [
     236,
     481,
@@ -19,20 +19,21 @@
    "align": "center"
   },
   {
-   "svg": "dip_omokage.svg",
+   "svg": "dip_omokage_bal.svg",
    "color": [
     104,
     28,
     17
    ],
-   "sw": 3,
+   "sw": 2.2,
    "box": [
     200,
     508,
     310,
     538
    ],
-   "align": "center"
+   "align": "center",
+   "stretch": true
   },
   {
    "svg": "dip_sogeukjang.svg",
@@ -41,7 +42,7 @@
     28,
     17
    ],
-   "sw": 2,
+   "sw": 1.4,
    "box": [
     230,
     561,
