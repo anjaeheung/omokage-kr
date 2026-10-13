@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>극단 오모카게 제15회 공연 「봄을 기다리며」</title>
+  <meta property="og:title" content="극단 오모카게 제15회 공연 「봄을 기다리며」">
+  <meta property="og:description" content="실재하는 웹사이트를 탐색하며 이야기를 진행하는 ARG형 미스터리 게임 — 한국어판">
+  <meta property="og:image" content="https://omokage-kr.pages.dev/images/ogp.jpg?v=2">
+  <meta property="og:url" content="https://omokage-kr.pages.dev/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Serif+KR:wght@400;500;700&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #140606; --panel: rgba(20, 4, 4, 0.82); --line: rgba(184, 148, 92, 0.55); --gold: #c9a36a; --text: #eee3d6; --sub: #b9a99a; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg) url("images/topbanner.png") center top / cover fixed no-repeat;
+      color: var(--text);
+      font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.9;
+    }
+    body::before { content: ""; position: fixed; inset: 0; background: linear-gradient(rgba(20, 2, 2, 0.72), rgba(10, 0, 0, 0.9)); z-index: -1; }
+    main { max-width: 760px; margin: 0 auto; padding: 72px 20px 48px; }
+    .gate { text-align: center; padding: 56px 28px 44px; border: 1px solid var(--line); background: var(--panel); }
+    .gate .kicker { font-family: "Noto Serif KR", serif; letter-spacing: 0.3em; color: var(--gold); font-size: 0.82rem; margin: 0 0 18px; }
+    .gate h1 { font-family: "Shippori Mincho", "Noto Serif KR", serif; font-weight: 700; font-size: clamp(1.9rem, 7vw, 2.8rem); letter-spacing: 0.12em; margin: 0 0 6px; word-break: keep-all; }
+    .gate .title { font-family: "Noto Serif KR", serif; font-size: clamp(1.05rem, 4vw, 1.3rem); letter-spacing: 0.1em; margin: 0 0 30px; color: var(--gold); word-break: keep-all; }
+    .gate .story { font-family: "Noto Serif KR", serif; font-size: 0.98rem; margin: 0 0 34px; word-break: keep-all; }
+    .start { display: inline-block; padding: 14px 44px; border: 1px solid var(--gold); color: var(--text); text-decoration: none; font-family: "Noto Serif KR", serif; letter-spacing: 0.25em; transition: background .2s; }
+    .start:hover, .start:focus-visible { background: rgba(201, 163, 106, 0.18); }
+    .more { margin: 34px 0 0; font-size: 0.85rem; color: var(--sub); }
+    .more span { display: block; animation: nudge 1.8s ease-in-out infinite; }
+    @keyframes nudge { 50% { transform: translateY(5px); } }
+    @media (prefers-reduced-motion: reduce) { .more span { animation: none; } }
+    section { margin-top: 28px; padding: 26px 28px; border: 1px solid var(--line); background: var(--panel); }
+    section h2 { margin: 0 0 14px; font-family: "Noto Serif KR", serif; font-size: 0.95rem; letter-spacing: 0.28em; color: var(--gold); }
+    section p, section li { font-size: 0.93rem; margin: 0 0 10px; word-break: keep-all; }
+    section ul { margin: 0; padding-left: 1.2em; }
+    dl { margin: 0; }
+    dt { color: var(--gold); font-size: 0.86rem; margin-top: 10px; }
+    dd { margin: 0 0 4px; font-size: 0.93rem; }
+    a { color: #e2c08d; }
+    .btn { display: inline-block; margin-top: 6px; padding: 8px 26px; border: 1px solid var(--line); text-decoration: none; color: var(--text); }
+    footer { text-align: center; color: var(--sub); font-size: 0.8rem; margin-top: 36px; }
+    @media (max-width: 600px) {
+      main { padding: 40px 16px 36px; }
+      .gate { padding: 40px 18px 34px; }
+      section { padding: 22px 18px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <div class="gate">
+    <p class="kicker">OMOKAGE THEATER COMPANY</p>
+    <h1>극단 오모카게</h1>
+    <p class="title">제15회 공연 「봄을 기다리며」</p>
+    <p class="story">
+      작은 극단의 홈페이지.<br>
+      이번 공연의 주연은<br>
+      신입 단원 다카기 미사키 씨.<br>
+      이번이 첫 주연 무대다.<br>
+      예매권은 지금 판매 중이다.
+    </p>
+    <a class="start" href="index.html" id="enter">사이트로 들어간다</a>
+    <p class="more">게임 정보·힌트는 여기<span>↓</span></p>
+  </div>
+
+  <section>
+    <h2>HOW TO PLAY</h2>
+    <p>실재하는 웹사이트를 탐색하며 이야기를 진행하는 ARG(대체 현실 게임)형 미스터리 게임입니다.</p>
+    <ul>
+      <li>사이트 안을 자유롭게 둘러보며 「극단 오모카게」에 관한 기록을 따라가 주세요.</li>
+      <li>처음에는 작은 극단의 홈페이지지만, 둘러보다 보면 평소에는 공개되지 않는 기록이나 부자연스러운 페이지가 나올 수 있습니다.</li>
+      <li>신경 쓰이는 낱말은 사이트 안 검색으로 찾아볼 수 있습니다. 검색은 한 낱말로만 됩니다.</li>
+      <li>URL 수정, 소스 코드 확인, 파일 분석은 필요 없습니다.</li>
+      <li>엔딩은 두 가지입니다. 일부 불온한 표현이 있지만 점프 스케어는 없습니다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>GAME INFORMATION</h2>
+    <dl>
+      <dt>플레이 환경</dt>
+      <dd>PC·스마트폰 모두 플레이할 수 있습니다.</dd>
+      <dt>열람 기록</dt>
+      <dd>열람한 페이지 기록은 브라우저에 저장됩니다. 캐시를 지우거나 기기를 바꾸거나 시크릿 모드로 플레이하면 기록이 남지 않을 수 있습니다.</dd>
+      <dt>입력란</dt>
+      <dd>탐색 중에 입력란이 나오지만, 입력한 내용은 저장되지 않습니다.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>HINT</h2>
+    <p>조사가 막혔을 때는 힌트 페이지를 이용해 주세요. 스포일러가 포함되어 있습니다.</p>
+    <a class="btn" href="hint/">힌트 보기</a>
+  </section>
+
+  <section>
+    <h2>STREAMING / SPOILER</h2>
+    <p>실황 방송, 플레이 기록, 감상, 고찰, 스크린숏 게시, 2차 창작 모두 자유롭게 해 주셔도 괜찮습니다.</p>
+    <p>스포일러가 들어간 게시물도 괜찮지만, 직접적인 스포일러 표현에는 배려를 부탁드립니다.</p>
+    <p>게시할 때는 해시태그 <strong>#劇団おもかげ</strong> 를 달아 주세요. 한국어판이라면 <strong>#극단오모카게</strong> 도 함께 달아 주시면 감사하겠습니다.</p>
+    <p>한국어판으로 방송하거나 소개하실 때는 제목이나 설명란에 「원작: うに / 한국어 로컬라이즈: Conte」처럼 출처를 적어 주세요. 광고·협찬·유료 서비스 홍보 등 수익으로 이어지는 용도에는 한국어판 화면이나 소재를 쓰지 말아 주세요.</p>
+  </section>
+
+  <section>
+    <h2>KOREAN EDITION</h2>
+    <p>한국어 번역: Conte · <a href="https://blog.naver.com/contes" target="_blank" rel="noopener">블로그</a> · Contes@naver.com</p>
+    <p>원작: うに · <a href="https://x.com/uni_uni_tokage" target="_blank" rel="noopener">x.com/uni_uni_tokage</a> · <a href="https://note.com/ls_0328/n/n41e9daf7fbbb" target="_blank" rel="noopener">작품 소개(note, 일본어)</a></p>
+    <p>원작자의 허락을 받아 제작한 한국어판입니다.</p>
+  </section>
+
+  <section>
+    <h2>CONTACT</h2>
+    <p>링크 끊김, 검색이 안 되는 곳, 번역 오류 등 한국어판에 문제가 있으면 번역자에게 알려 주세요.</p>
+    <p>번역자 Conte · <a href="https://blog.naver.com/contes" target="_blank" rel="noopener">blog.naver.com/contes</a> · Contes@naver.com</p>
+    <p>가능하면 문제가 생긴 페이지와 사용 기기·브라우저를 함께 적어 주세요.</p>
+  </section>
+
+  <footer>© うに · 한국어판 Conte</footer>
+</main>
+<script>
+  // 들어가기를 누르면 다음부터는 극단 홈페이지로 바로 간다(index.html 머리의 안내 이동 참고)
+  document.getElementById("enter").addEventListener("click", function () {
+    try { localStorage.setItem("omokage_kr_gate", "1"); } catch (e) {}
+  });
+</script>
+</body>
+</html>

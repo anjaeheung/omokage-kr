@@ -212,8 +212,26 @@ def fix_hero_title():
     print("  hero    큰 제목 줄바꿈 막음")
 
 
+GATE_JS = ('<script>/* 한국어판: 처음 온 사람은 시작 화면(start.html)부터 — 들어가기를 누르면 다음부터는 바로 극단 홈페이지 */'
+           'try{if(!localStorage.getItem("omokage_kr_gate"))location.replace("start.html");}catch(e){}</script>')
+
+
+def fix_gate():
+    """아임낫·미정리기록처럼 게임 안내·힌트·방송 안내가 있는 시작 화면을 먼저 보여 준다. 원작은 극단 홈페이지가 바로 첫 화면이라
+    주소(/)는 그대로 두고, 처음 온 사람만 start.html 로 보낸다(극단 홈페이지 안 「홈」 링크는 그대로 index.html)."""
+    rel = "index.html"; s = read(rel)
+    if "omokage_kr_gate" not in s:
+        if "<head>" not in s:
+            FAIL.append("gate: index.html <head> 없음"); return
+        write(rel, s.replace("<head>", "<head>\n" + GATE_JS, 1))
+    if not (SITE / "start.html").exists():
+        FAIL.append("gate: start.html 없음")
+    print("  gate    시작 화면 start.html, 첫 방문만 이동")
+
+
 def main():
     fix_lang_and_host()
+    fix_gate()
     fix_hero_title()
     fix_fonts()
     fix_hint_fonts()
