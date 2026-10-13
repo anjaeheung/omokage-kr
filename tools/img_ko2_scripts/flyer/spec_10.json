@@ -1,0 +1,89 @@
+{
+ "src": "src_10.png",
+ "boxes": [
+  {
+   "id": "A",
+   "box": [
+    70,
+    72,
+    420,
+    148
+   ],
+   "grow": 7,
+   "cond": "(b-r>25)&(lum<115)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 6
+  },
+  {
+   "id": "B",
+   "box": [
+    74,
+    156,
+    436,
+    244
+   ],
+   "grow": 7,
+   "cond": "(b-r>25)&(lum<115)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 6
+  },
+  {
+   "id": "C1",
+   "box": [
+    60,
+    374,
+    648,
+    566
+   ],
+   "grow": 9,
+   "cond": "(b-r>25)&(lum<115)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 6
+  },
+  {
+   "id": "C2",
+   "box": [
+    92,
+    570,
+    700,
+    795
+   ],
+   "grow": 9,
+   "cond": "(b-r>25)&(lum<115)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 6
+  },
+  {
+   "id": "D",
+   "box": [
+    46,
+    826,
+    812,
+    876
+   ],
+   "grow": 6,
+   "cond": "(b-r>15)&(lum<135)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 8
+  },
+  {
+   "id": "E",
+   "box": [
+    46,
+    1424,
+    990,
+    1466
+   ],
+   "grow": 6,
+   "cond": "(b-r>15)&(lum<135)",
+   "minblob": 10,
+   "near": "lum>185",
+   "nearpx": 8
+  }
+ ]
+}

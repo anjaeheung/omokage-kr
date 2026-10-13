@@ -1,0 +1,174 @@
+{
+ "w": 1054,
+ "h": 1492,
+ "items": [
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    68,
+    100,
+    350,
+    140
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "제12회 공연",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    68,
+    170,
+    300,
+    206
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "패밀리",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    68,
+    243,
+    960,
+    347
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 9
+   }
+  },
+  {
+   "text": "레스토랑,",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    68,
+    365,
+    960,
+    469
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 9
+   }
+  },
+  {
+   "text": "새벽 두 시",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    68,
+    487,
+    960,
+    591
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 9
+   }
+  },
+  {
+   "text": "출연: 구보 유코 · 미야자키 메이 · 아마기 요타 · 오쓰카 아카리",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    72,
+    640,
+    765,
+    666
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "티켓은 각종 예매처나 「소극장 오모카게」에서 직접 구매하실 수 있습니다.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    42,
+    25,
+    15
+   ],
+   "box": [
+    90,
+    1414,
+    970,
+    1454
+   ],
+   "align": "center",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  }
+ ]
+}

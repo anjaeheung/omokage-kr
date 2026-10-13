@@ -1,0 +1,150 @@
+{
+ "w": 1054,
+ "h": 1492,
+ "items": [
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    64,
+    100,
+    338,
+    140
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "제13회 공연",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    64,
+    170,
+    282,
+    206
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "끝내 보내지",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    58,
+    255,
+    960,
+    447
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 9
+   }
+  },
+  {
+   "text": "못한 편지",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    58,
+    465,
+    960,
+    657
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 9
+   }
+  },
+  {
+   "text": "출연: 나가이 마유미 · 오쿠보 히데키 · 미야자키 메이 · 스즈키 레이",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    64,
+    706,
+    772,
+    734
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  },
+  {
+   "text": "티켓은 각종 예매처나 「소극장 오모카게」에서 직접 구매하실 수 있습니다.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    49,
+    28,
+    13
+   ],
+   "box": [
+    90,
+    1414,
+    970,
+    1454
+   ],
+   "align": "center",
+   "halo": {
+    "color": [
+     255,
+     252,
+     245
+    ],
+    "width": 6
+   }
+  }
+ ]
+}

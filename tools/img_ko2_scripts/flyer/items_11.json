@@ -1,0 +1,351 @@
+{
+ "w": 1054,
+ "h": 1492,
+ "items": [
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "box": [
+    68,
+    91,
+    345,
+    133
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "제11회 공연",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "box": [
+    70,
+    158,
+    280,
+    192
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "바닷가",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 150,
+   "box": [
+    69,
+    243,
+    900,
+    397
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 8
+   }
+  },
+  {
+   "text": "아파트 203호",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "box": [
+    74,
+    430,
+    960,
+    564
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 8
+   }
+  },
+  {
+   "text": "출연: 고노 료 · 히라노 게이타 · 스즈키 레이 · 오니시 세이키",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "box": [
+    71,
+    634,
+    890,
+    661
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "이혼 후, 바닷가의 낡은 아파트에서",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    725,
+    700,
+    755
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "혼자 살기 시작한 남자.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    766,
+    700,
+    796
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "심야 배송 일을 이어 가며",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    807,
+    700,
+    837
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "딸을 만나는 날만을",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    847,
+    700,
+    877
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "낙으로 살아간다.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    889,
+    700,
+    919
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "그러던 어느 날, 방 우편함에",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    930,
+    700,
+    960
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "보낸 사람 없는 편지가",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    973,
+    700,
+    1003
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "오기 시작한다.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "size": 21,
+   "box": [
+    68,
+    1014,
+    700,
+    1044
+   ],
+   "align": "left",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  },
+  {
+   "text": "티켓은 각종 예매처나 「소극장 오모카게」에서 직접 구매하실 수 있습니다.",
+   "font": "NotoSerifKR-Bold",
+   "color": [
+    10,
+    54,
+    110
+   ],
+   "box": [
+    90,
+    1412,
+    970,
+    1452
+   ],
+   "align": "center",
+   "halo": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "width": 5
+   }
+  }
+ ]
+}
