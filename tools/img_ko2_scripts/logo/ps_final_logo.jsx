@@ -1,0 +1,14 @@
+app.displayDialogs = DialogModes.NO; app.preferences.rulerUnits = Units.PIXELS;
+var D = "C:/Users/user/arg/omokage-kr/_adobe/logo/";
+var OUT = "C:/Users/user/arg/omokage-kr/overrides/shared/images/logo_2_2.png";
+while (app.documents.length) app.documents[0].close(SaveOptions.DONOTSAVECHANGES);
+var doc = app.open(new File(D + "erased_logo.psd"));
+var t = app.open(new File(D + "text_logo.png"));
+t.activeLayer.duplicate(doc, ElementPlacement.PLACEATBEGINNING); t.close(SaveOptions.DONOTSAVECHANGES);
+app.activeDocument = doc; doc.layers[0].name = "text_ko";
+var so = new PhotoshopSaveOptions(); so.layers = true; doc.saveAs(new File(D + "final_logo.psd"), so, true);
+var w = new ExportOptionsSaveForWeb(); w.format = SaveDocumentType.PNG; w.PNG8 = true; w.colors = 256;
+w.colorReduction = ColorReductionType.SELECTIVE; w.dither = Dither.NONE; w.transparency = false;
+doc.exportDocument(new File(OUT), ExportType.SAVEFORWEB, w);
+doc.saveAs(new File(D + "final_logo_full.png"), new PNGSaveOptions(), true);
+doc.close(SaveOptions.DONOTSAVECHANGES); "ok";

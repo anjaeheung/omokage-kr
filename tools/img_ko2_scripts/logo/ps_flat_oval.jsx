@@ -1,0 +1,20 @@
+app.displayDialogs = DialogModes.NO; app.preferences.rulerUnits = Units.PIXELS;
+var D = "C:/Users/user/arg/omokage-kr/_adobe/logo/";
+while (app.documents.length) app.documents[0].close(SaveOptions.DONOTSAVECHANGES);
+var doc = app.open(new File(D + "erased_logo.psd"));
+var m = app.open(new File(D + "mask_oval_rgba.png"));
+m.activeLayer.duplicate(doc, ElementPlacement.PLACEATBEGINNING); m.close(SaveOptions.DONOTSAVECHANGES);
+app.activeDocument = doc; var ml = doc.layers[0];
+var d = new ActionDescriptor(), r = new ActionReference(); r.putProperty(charIDToTypeID("Chnl"), charIDToTypeID("fsel"));
+d.putReference(charIDToTypeID("null"), r); var r2 = new ActionReference(); r2.putEnumerated(charIDToTypeID("Chnl"), charIDToTypeID("Chnl"), charIDToTypeID("Trsp"));
+d.putReference(charIDToTypeID("T   "), r2); executeAction(charIDToTypeID("setd"), d, DialogModes.NO);
+ml.remove();
+var fl = doc.artLayers.add(); fl.name = "oval_clean"; fl.move(doc.layers[0], ElementPlacement.PLACEBEFORE);
+var c = new SolidColor(); c.rgb.red = 254; c.rgb.green = 238; c.rgb.blue = 209;
+doc.activeLayer = fl; doc.selection.fill(c); doc.selection.deselect();
+fl.applyAddNoise(0.4, NoiseDistribution.GAUSSIAN, true);
+// 밑줄 층이 맨 위에 오도록
+for (var i = 0; i < doc.layers.length; i++) if (doc.layers[i].name == "swash_right_mirrored") doc.layers[i].move(doc.layers[0], ElementPlacement.PLACEBEFORE);
+var so = new PhotoshopSaveOptions(); so.layers = true; doc.saveAs(new File(D + "erased_logo.psd"), so, true);
+doc.saveAs(new File(D + "erased_logo.png"), new PNGSaveOptions(), true);
+doc.close(SaveOptions.DONOTSAVECHANGES); "ok";

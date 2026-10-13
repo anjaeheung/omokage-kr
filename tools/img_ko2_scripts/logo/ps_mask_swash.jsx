@@ -1,0 +1,20 @@
+app.displayDialogs = DialogModes.NO; app.preferences.rulerUnits = Units.PIXELS;
+var D = "C:/Users/user/arg/omokage-kr/_adobe/logo/";
+while (app.documents.length) app.documents[0].close(SaveOptions.DONOTSAVECHANGES);
+var doc = app.open(new File(D + "erased_logo.psd"));
+var m = app.open(new File(D + "mask_swash_rgba.png"));
+m.activeLayer.duplicate(doc, ElementPlacement.PLACEATBEGINNING); m.close(SaveOptions.DONOTSAVECHANGES);
+app.activeDocument = doc; var ml = doc.layers[0];
+var d = new ActionDescriptor(), r = new ActionReference(); r.putProperty(charIDToTypeID("Chnl"), charIDToTypeID("fsel"));
+d.putReference(charIDToTypeID("null"), r); var r2 = new ActionReference(); r2.putEnumerated(charIDToTypeID("Chnl"), charIDToTypeID("Chnl"), charIDToTypeID("Trsp"));
+d.putReference(charIDToTypeID("T   "), r2); executeAction(charIDToTypeID("setd"), d, DialogModes.NO);
+ml.remove();
+var sw = null; for (var i = 0; i < doc.layers.length; i++) if (doc.layers[i].name == "swash_right_mirrored") sw = doc.layers[i];
+doc.activeLayer = sw;
+try { var dm = new ActionDescriptor(); var rm = new ActionReference(); rm.putEnumerated(charIDToTypeID("Chnl"), charIDToTypeID("Chnl"), charIDToTypeID("Msk ")); dm.putReference(charIDToTypeID("null"), rm); executeAction(charIDToTypeID("Dlt "), dm, DialogModes.NO); } catch (e) {}
+var k = new ActionDescriptor(); k.putClass(charIDToTypeID("Nw  "), charIDToTypeID("Chnl"));
+var kr = new ActionReference(); kr.putEnumerated(charIDToTypeID("Chnl"), charIDToTypeID("Chnl"), charIDToTypeID("Msk ")); k.putReference(charIDToTypeID("At  "), kr);
+k.putEnumerated(charIDToTypeID("Usng"), charIDToTypeID("UsrM"), charIDToTypeID("RvlS")); executeAction(charIDToTypeID("Mk  "), k, DialogModes.NO);
+var so = new PhotoshopSaveOptions(); so.layers = true; doc.saveAs(new File(D + "erased_logo.psd"), so, true);
+doc.saveAs(new File(D + "erased_logo.png"), new PNGSaveOptions(), true);
+doc.close(SaveOptions.DONOTSAVECHANGES); "ok";
