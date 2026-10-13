@@ -15,6 +15,11 @@ if (A.soft) { for (var k = 0; k < A.soft.length; k++) { var q = A.soft[k]; doc.a
   doc.selection.select([[q[0], q[1]], [q[2], q[1]], [q[2], q[3]], [q[0], q[3]]]);
   T.applyGaussianBlur(q[4]); T.applyAddNoise(q[5], NoiseDistribution.GAUSSIAN, true); doc.selection.deselect(); } }
 if (A.textOpacity) T.opacity = A.textOpacity;
+// mult: 벽·간판에 칠한 글자는 곱하기로 — 벽 질감·조명이 글자 위로 비친다. 사각형마다 글자 층에서 잘라 새 층으로
+if (A.mult) { for (var j = 0; j < A.mult.length; j++) { var m = A.mult[j]; doc.activeLayer = T;
+  doc.selection.select([[m[0], m[1]], [m[2], m[1]], [m[2], m[3]], [m[0], m[3]]]);
+  executeAction(charIDToTypeID("CtTL"), undefined, DialogModes.NO);
+  var ML = doc.activeLayer; ML.name = "text_mult_" + j; ML.blendMode = BlendMode.MULTIPLY; doc.selection.deselect(); } }
 var so = new PhotoshopSaveOptions(); so.layers = true; doc.saveAs(new File(D + "final_" + N + ".psd"), so, true);
 doc.saveAs(new File(OUT), new PNGSaveOptions(), true);
 doc.close(SaveOptions.DONOTSAVECHANGES); "ok";

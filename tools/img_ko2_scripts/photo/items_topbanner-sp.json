@@ -5,9 +5,9 @@
   {
    "svg": "dip_geukdan.svg",
    "color": [
-    104,
-    28,
-    17
+    88,
+    10,
+    6
    ],
    "sw": 1.8,
    "box": [
@@ -22,9 +22,9 @@
   {
    "svg": "dip_omokage_even.svg",
    "color": [
-    104,
-    28,
-    17
+    88,
+    10,
+    6
    ],
    "sw": 2.2,
    "box": [
@@ -40,9 +40,9 @@
   {
    "svg": "dip_sogeukjang.svg",
    "color": [
-    104,
-    28,
-    17
+    88,
+    10,
+    6
    ],
    "sw": 1.4,
    "box": [
@@ -57,9 +57,9 @@
   {
    "svg": "dip_geukdan.svg",
    "color": [
-    78,
-    16,
-    10
+    70,
+    10,
+    8
    ],
    "sw": 2.0,
    "box": [
@@ -75,9 +75,9 @@
   {
    "svg": "dip_omokage_even.svg",
    "color": [
-    78,
-    16,
-    10
+    70,
+    10,
+    8
    ],
    "sw": 2.4,
    "box": [
@@ -93,9 +93,9 @@
   {
    "svg": "dip_sogeukjang_tight.svg",
    "color": [
-    78,
-    16,
-    10
+    70,
+    10,
+    8
    ],
    "sw": 1.7,
    "box": [
