@@ -7,7 +7,6 @@
    "font": "NotoSansKR-Regular",
    "align": "center",
    "tracking": 160,
-   "rotate": -5,
    "color": [
     150,
     143,
@@ -18,14 +17,14 @@
     483.5,
     736.5,
     528.5
-   ]
+   ],
+   "shear": -5
   },
   {
    "text": "오모카게 기숙사",
    "font": "NotoSansKR-Regular",
    "align": "center",
    "tracking": 160,
-   "rotate": -5,
    "color": [
     62,
     58,
@@ -36,7 +35,8 @@
     482,
     735,
     527
-   ]
+   ],
+   "shear": -5
   }
  ]
 }

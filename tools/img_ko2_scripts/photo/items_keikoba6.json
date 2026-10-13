@@ -17,8 +17,8 @@
     1136
    ],
    "align": "center",
-   "rotate": 6,
-   "tracking": 200
+   "tracking": 200,
+   "shear": 6
   }
  ]
 }

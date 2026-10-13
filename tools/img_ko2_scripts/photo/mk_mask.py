@@ -9,11 +9,12 @@ spec = json.load(open('spec_%s.json' % name, encoding='utf-8'))
 a = np.asarray(Image.open(spec['src']).convert('RGB')).astype(np.int16)
 r, g, b = a[..., 0], a[..., 1], a[..., 2]
 lum = (r * 3 + g * 6 + b) / 10
+loc = nd.uniform_filter(lum.astype(float), 41)
 m = np.zeros(a.shape[:2], bool)
 for bx in spec['boxes']:
     x0, y0, x1, y1 = bx['box']
     sub = np.zeros_like(m)
-    cond = eval(bx['cond'], {'r': r, 'g': g, 'b': b, 'lum': lum, 'np': np})
+    cond = eval(bx['cond'], {'r': r, 'g': g, 'b': b, 'lum': lum, 'np': np, 'loc': loc})
     sub[y0:y1, x0:x1] = cond[y0:y1, x0:x1]
     if bx.get('disk'):
         cx, cy, rr = bx['disk']; yy, xx = np.ogrid[:sub.shape[0], :sub.shape[1]]

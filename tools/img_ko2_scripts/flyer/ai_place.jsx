@@ -15,6 +15,8 @@ function vb(tf) { var d = tf.duplicate(); var o = d.createOutline(); var b = o.v
 var rep = [];
 for (var i = 0; i < S.items.length; i++) {
   var it = S.items[i], bx = it.box; // [x0,y0,x1,y1] px
+  if (it.circle) { var c0 = it.circle; var el = tl.pathItems.ellipse(-(c0[1] - c0[2]), c0[0] - c0[2], c0[2] * 2, c0[2] * 2);
+    el.filled = false; el.stroked = true; el.strokeColor = rgb(it.color); el.strokeWidth = it.sw || 2; rep.push("circle"); continue; }
   if (it.svg) { // 글꼴 윤곽선(SVG)을 넣는 경우
     var g = tl.groupItems.createFromFile(new File(D + it.svg));
     var gb = g.geometricBounds, gw = gb[2] - gb[0], gh = gb[1] - gb[3];
@@ -29,19 +31,23 @@ for (var i = 0; i < S.items.length; i++) {
     paint(g, rgb(it.color), it.sw || 0); gb = g.geometricBounds; rep.push(it.svg + ":" + Math.round(gb[2] - gb[0]) + "x" + Math.round(gb[1] - gb[3])); continue;
   }
   var tf = tl.textFrames.add(); tf.contents = it.text;
-  var ca = tf.textRange.characterAttributes; ca.textFont = app.textFonts.getByName(it.font); ca.size = 100; ca.fillColor = rgb(it.color);
+  var ca = tf.textRange.characterAttributes; ca.textFont = app.textFonts.getByName(it.font); ca.size = it.pt || 100; ca.fillColor = rgb(it.color);
   ca.tracking = it.tracking || 0;
   if (it.sw) { ca.strokeColor = rgb(it.color); ca.strokeWeight = it.sw; }
   var b = vb(tf), w = b[2] - b[0], h = b[1] - b[3];
   var s = Math.min((bx[2] - bx[0]) / w, (bx[3] - bx[1]) / h);
   if (it.size) s = it.size / h; // 높이를 직접 정할 때
-  tf.resize(s * 100, s * 100);
+  if (!it.pt) tf.resize(s * 100, s * 100);
   if (it.sw) tf.textRange.characterAttributes.strokeWeight = it.sw; // 획은 크기와 따로
+  if (it.hfit) { // 높이는 상자에 맞추고, 넘치는 폭은 장평으로 줄인다
+    var hb = vb(tf), hh = hb[1] - hb[3]; if (!it.pt) { var k = (bx[3] - bx[1]) / hh; tf.resize(k * 100, k * 100); }
+    hb = vb(tf); var ww = hb[2] - hb[0]; if (ww > bx[2] - bx[0]) tf.textRange.characterAttributes.horizontalScale = 100 * (bx[2] - bx[0]) / ww; }
   b = vb(tf); w = b[2] - b[0]; h = b[1] - b[3];
   var tx = it.align == "center" ? ((bx[0] + bx[2]) / 2 - (b[0] + b[2]) / 2) : it.align == "right" ? (bx[2] - b[2]) : (bx[0] - b[0]);
   var ty = (-((bx[1] + bx[3]) / 2)) - ((b[1] + b[3]) / 2);
   tf.translate(tx, ty);
   if (it.rotate) tf.rotate(it.rotate, true, false, false, false, Transformation.CENTER);
+  if (it.shear) { var M = app.getIdentityMatrix(); M.mValueB = Math.tan(it.shear * Math.PI / 180); tf.transform(M, true, false, false, false, 1, Transformation.CENTER); }
   if (it.halo) {
     var hf = tf.duplicate(halo, ElementPlacement.PLACEATBEGINNING);
     var hc = hf.textRange.characterAttributes; hc.fillColor = rgb(it.halo.color); hc.strokeColor = rgb(it.halo.color); hc.strokeWeight = (it.sw || 0) + it.halo.width;

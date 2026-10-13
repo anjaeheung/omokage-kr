@@ -53,53 +53,50 @@
   {
    "svg": "dip_geukdan.svg",
    "color": [
-    88,
-    22,
-    14
+    78,
+    16,
+    10
    ],
-   "sw": 3.5,
+   "sw": 1.5,
    "box": [
     680,
     612,
     745,
     662
    ],
-   "align": "center",
-   "rotate": -2
+   "align": "center"
   },
   {
    "svg": "dip_omokage.svg",
    "color": [
-    88,
-    22,
-    14
+    78,
+    16,
+    10
    ],
-   "sw": 4.5,
+   "sw": 2,
    "box": [
     640,
     680,
     790,
     733
    ],
-   "align": "center",
-   "rotate": -2
+   "align": "center"
   },
   {
    "svg": "dip_sogeukjang.svg",
    "color": [
-    88,
-    22,
-    14
+    78,
+    16,
+    10
    ],
-   "sw": 3,
+   "sw": 1,
    "box": [
     675,
     795,
     745,
     828
    ],
-   "align": "center",
-   "rotate": -2
+   "align": "center"
   },
   {
    "text": "극단 오모카게",
