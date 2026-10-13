@@ -32,7 +32,7 @@ for (var i = 0; i < S.items.length; i++) {
   }
   var tf = tl.textFrames.add(); tf.contents = it.text;
   var ca = tf.textRange.characterAttributes; ca.textFont = app.textFonts.getByName(it.font); ca.size = it.pt || 100; ca.fillColor = rgb(it.color);
-  ca.tracking = it.tracking || 0;
+  ca.tracking = it.tracking || 0; if (it.vscale) ca.verticalScale = it.vscale;
   if (it.sw) { ca.strokeColor = rgb(it.color); ca.strokeWeight = it.sw; }
   var b = vb(tf), w = b[2] - b[0], h = b[1] - b[3];
   var s = Math.min((bx[2] - bx[0]) / w, (bx[3] - bx[1]) / h);
