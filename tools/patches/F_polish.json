@@ -1,0 +1,27 @@
+{
+ "omokage/records/dormitory.html": {
+  "20": "\r\n            ・소지품 반입은 최소한으로 제한함.\r\n          "
+ },
+ "omokage/records/graduate-manual.html": {
+  "19": "\r\n            ・소지품 동기화 자료는 보관소로 이관\r\n          "
+ },
+ "omokage/records/member-003.html": {
+  "26": "\r\n          옷·소지품·말투 같은\n          일상 부분의 재현 정밀도를 높이는 데 크게 보탬이 됐다.\r\n        "
+ },
+ "omokage/records/member-guide.html": {
+  "23": "\r\n            ・소지품 동기화율을 유지할 것\r\n          "
+ },
+ "omokage/records/performance.html": {
+  "18": "\r\n            ・소지품 사용을 통한 생활 동기화\r\n          "
+ },
+ "omokage/records/rehearsal/rehearsal-03.html": {
+  "14": "\r\n          배부한 동의서는\n          본인 확인을 거쳐\n          회수 완료.\r\n        "
+ },
+ "omokage/records/replay-request.html": {
+  "16": "\r\n          현재 생활 동기화·말투 조정·소지품 동기화를 우선 진행 중.\r\n        ",
+  "21": "\r\n            ・소지품 및 생활 기록\r\n          "
+ },
+ "omokage/shared/memory.html": {
+  "0": "\r\n    기억 수첩\r\n  "
+ }
+}
