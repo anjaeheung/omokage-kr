@@ -229,9 +229,48 @@ def fix_gate():
     print("  gate    시작 화면 start.html, 첫 방문만 이동")
 
 
+ZOOM_JS = """
+<script>/* 한국어판: 지난 공연 전단을 누르면 새 탭 대신 그 자리에서 크게 보고, 한 번 더 누르면 닫힌다(콘테 10-14).
+   제10회 전단은 404 연출(flyer_10_old.html)로 가는 단서라 건드리지 않는다. */
+(function () {
+  var links = document.querySelectorAll('a[href^="images/"][href$=".png"]');
+  if (!links.length) return;
+  var box = document.createElement("div");
+  box.style.cssText = "position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;" +
+    "background:rgba(0,0,0,.86);cursor:zoom-out;padding:3vh 3vw;box-sizing:border-box";
+  var big = document.createElement("img");
+  big.style.cssText = "max-width:100%;max-height:100%;box-shadow:0 0 30px rgba(0,0,0,.6)";
+  box.appendChild(big); document.body.appendChild(box);
+  function close() { box.style.display = "none"; big.removeAttribute("src"); document.body.style.overflow = ""; }
+  box.addEventListener("click", close);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && box.style.display === "flex") close(); });
+  links.forEach(function (a) {
+    a.style.cursor = "zoom-in";
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var im = a.querySelector("img"); big.src = a.getAttribute("href"); big.alt = im ? im.alt : "";
+      box.style.display = "flex"; document.body.style.overflow = "hidden";
+    });
+  });
+})();
+</script>
+"""
+
+
+def fix_flyer_zoom():
+    rel = "archive.html"; s = read(rel)
+    if "새 탭 대신 그 자리에서" in s:
+        return
+    if "</body>" not in s or 'href="flyer_10_old.html"' not in s:
+        FAIL.append("zoom: archive.html 모양이 다름"); return
+    write(rel, s.replace("</body>", ZOOM_JS + "</body>", 1))
+    print("  zoom    지난 공연 전단 누르면 크게(제10회 제외)")
+
+
 def main():
     fix_lang_and_host()
     fix_gate()
+    fix_flyer_zoom()
     fix_hero_title()
     fix_fonts()
     fix_hint_fonts()
