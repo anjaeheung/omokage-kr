@@ -16,7 +16,8 @@
     278,
     505
    ],
-   "align": "center"
+   "align": "center",
+   "shear": -5
   },
   {
    "svg": "dip_omokage_bal.svg",
@@ -33,7 +34,8 @@
     538
    ],
    "align": "center",
-   "stretch": true
+   "stretch": true,
+   "shear": -5
   },
   {
    "svg": "dip_sogeukjang.svg",
@@ -49,7 +51,8 @@
     282,
     583
    ],
-   "align": "center"
+   "align": "center",
+   "shear": -5
   },
   {
    "svg": "dip_geukdan.svg",
