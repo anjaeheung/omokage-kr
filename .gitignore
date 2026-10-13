@@ -4,3 +4,4 @@ tools/build.log
 _adobe/
 *.args.txt
 _author/
+_send/
