@@ -41,6 +41,7 @@ for (var i = 0; i < S.items.length; i++) {
   var tx = it.align == "center" ? ((bx[0] + bx[2]) / 2 - (b[0] + b[2]) / 2) : it.align == "right" ? (bx[2] - b[2]) : (bx[0] - b[0]);
   var ty = (-((bx[1] + bx[3]) / 2)) - ((b[1] + b[3]) / 2);
   tf.translate(tx, ty);
+  if (it.rotate) tf.rotate(it.rotate, true, false, false, false, Transformation.CENTER);
   if (it.halo) {
     var hf = tf.duplicate(halo, ElementPlacement.PLACEATBEGINNING);
     var hc = hf.textRange.characterAttributes; hc.fillColor = rgb(it.halo.color); hc.strokeColor = rgb(it.halo.color); hc.strokeWeight = (it.sw || 0) + it.halo.width;
