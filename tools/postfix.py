@@ -276,7 +276,7 @@ def fix_cheer():
         if "afterword.html" in s:
             n += 1; continue
         new = re.sub(r'(<a class="%s"\s+href="\.\./index\.html">)' % re.escape(cls),
-                     '<a class="%s" href="../afterword.html">후기 읽고 응원 남기기</a>\n\n      \\1' % cls, s, count=1)
+                     '<a class="%s" href="../afterword.html">제작 후기 읽고 응원 남기기</a>\n\n      \\1' % cls, s, count=1)
         if new == s:
             FAIL.append("cheer: %s 버튼 줄을 못 찾음" % rel); continue
         write(rel, new); n += 1
