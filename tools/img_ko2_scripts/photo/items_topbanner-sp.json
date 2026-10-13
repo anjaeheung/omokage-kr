@@ -65,9 +65,8 @@
     663
    ],
    "align": "center",
-   "shear": 4,
-   "stretch": true,
-   "vlean": 3
+   "shear": 8,
+   "stretch": true
   },
   {
    "svg": "dip_omokage.svg",
@@ -84,9 +83,8 @@
     738
    ],
    "align": "center",
-   "shear": 4,
-   "stretch": true,
-   "vlean": 8
+   "shear": 5.5,
+   "stretch": true
   },
   {
    "svg": "dip_sogeukjang_tight.svg",
@@ -103,9 +101,8 @@
     832
    ],
    "align": "center",
-   "shear": 4,
-   "stretch": true,
-   "vlean": 3
+   "shear": 3,
+   "stretch": true
   },
   {
    "text": "극단 오모카게",
