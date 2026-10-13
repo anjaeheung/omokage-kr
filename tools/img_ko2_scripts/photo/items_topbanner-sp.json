@@ -20,7 +20,7 @@
    "shear": -5
   },
   {
-   "svg": "dip_omokage_bal.svg",
+   "svg": "dip_omokage_even.svg",
    "color": [
     104,
     28,
@@ -73,7 +73,7 @@
    "stretch": true
   },
   {
-   "svg": "dip_omokage.svg",
+   "svg": "dip_omokage_even.svg",
    "color": [
     78,
     16,
