@@ -1,0 +1,596 @@
+{
+ "w": 1055,
+ "h": 1491,
+ "items": [
+  {
+   "text": "극단 오모카게　입단 동의서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 31,
+   "box": [
+    330,
+    122,
+    769,
+    156
+   ],
+   "align": "left",
+   "tracking": 40
+  },
+  {
+   "text": "극단 오모카게(이하 「당 극단」)에 입단하면서",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    193,
+    219,
+    706,
+    239
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "아래 내용을 확인·숙지하고 이에 동의합니다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    193,
+    252,
+    665,
+    271
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "【활동에 관하여】",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 22,
+   "box": [
+    191,
+    322,
+    383,
+    346
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 당 극단의 활동 방침, 연습 일정, 공연 준비에 따를 것.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    198,
+    374,
+    744,
+    393
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 공연 기간에는 극단이 정한 일정을 우선하며,",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    198,
+    418,
+    699,
+    436
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "무단결석·지각을 하지 않을 것.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    216,
+    450,
+    541,
+    468
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 배역 만들기와 공동생활의 일환으로",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    198,
+    494,
+    586,
+    513
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "극단이 지정한 기숙사에서 생활할 것.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    527,
+    541,
+    545
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 공연 내용 및 연출 방침에 관한 내부 정보를",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    197,
+    572,
+    631,
+    590
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "외부에 공개하지 않을 것.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    604,
+    450,
+    623
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 연습 기간에 연출상 필요하다고 판단될 경우,",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    197,
+    648,
+    653,
+    666
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "생활 습관·교우 관계·SNS 이용 등에 대해",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    679,
+    659,
+    698
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "극단 측이 지시할 수 있다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    214,
+    712,
+    564,
+    730
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 활동 기간에는 극단 활동을 최우선으로 하며,",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    197,
+    757,
+    700,
+    775
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "개인 활동에 제한이 생길 수 있다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    789,
+    676,
+    808
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 연출상 필요하다고 판단될 경우,",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    197,
+    833,
+    518,
+    852
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "극단 측은 단원과 면담하고",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    214,
+    866,
+    541,
+    884
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "생활 기록 제출 등을 요구할 수 있다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    898,
+    586,
+    917
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 단원은 극단이 빌려준 자료·대본·기록 매체를",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    196,
+    942,
+    743,
+    960
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "허가 없이 반출해서는 안 된다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    214,
+    976,
+    540,
+    994
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "· 당 극단 활동 중에 알게 된 개인 정보와",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    196,
+    1020,
+    631,
+    1038
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "관계자 정보를 제3자와 공유하는 것을 금지한다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    215,
+    1051,
+    721,
+    1070
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "【확인 사항】",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 22,
+   "box": [
+    185,
+    1119,
+    323,
+    1143
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "본인은 위 내용을 확인하고",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    193,
+    1166,
+    429,
+    1185
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "극단 오모카게의 활동 방침에 동의하며",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    193,
+    1199,
+    585,
+    1217
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "입단을 희망합니다.",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    193,
+    1231,
+    427,
+    1249
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "기입일",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    192,
+    1309,
+    260,
+    1328
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "년",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    355,
+    1309,
+    380,
+    1328
+   ],
+   "align": "left"
+  },
+  {
+   "text": "월",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    455,
+    1309,
+    480,
+    1328
+   ],
+   "align": "left"
+  },
+  {
+   "text": "일",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    555,
+    1309,
+    580,
+    1328
+   ],
+   "align": "left"
+  },
+  {
+   "text": "성명",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    192,
+    1367,
+    260,
+    1386
+   ],
+   "align": "left",
+   "tracking": 30
+  },
+  {
+   "text": "(인)",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    33,
+    32,
+    32
+   ],
+   "pt": 19,
+   "box": [
+    788,
+    1367,
+    830,
+    1386
+   ],
+   "align": "left"
+  }
+ ]
+}

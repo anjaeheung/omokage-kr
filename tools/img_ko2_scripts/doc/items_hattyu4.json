@@ -1,0 +1,344 @@
+{
+ "w": 1055,
+ "h": 1491,
+ "items": [
+  {
+   "text": "인쇄물 납품 확인서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    358,
+    132,
+    693,
+    169
+   ],
+   "align": "center",
+   "tracking": 60
+  },
+  {
+   "text": "발행일: 2026년 3월 10일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    764,
+    210,
+    969,
+    229
+   ],
+   "align": "left",
+   "pt": 19
+  },
+  {
+   "text": "주오 인쇄 유한회사　귀중",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    107,
+    263,
+    392,
+    288
+   ],
+   "align": "left",
+   "pt": 25
+  },
+  {
+   "text": "아래와 같이 인쇄물 납품을 확인했습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    107,
+    386,
+    573,
+    406
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "품목",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    220,
+    480,
+    257,
+    498
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "수량",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    492,
+    479,
+    533,
+    499
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    771,
+    479,
+    813,
+    499
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "전단",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    142,
+    551,
+    246,
+    568
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "1000부",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    479,
+    550,
+    549,
+    570
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "B5 컬러",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    746,
+    552,
+    838,
+    568
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "팸플릿",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    140,
+    622,
+    266,
+    639
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "300부",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    483,
+    621,
+    543,
+    640
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "당일 배부",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    749,
+    621,
+    835,
+    640
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "입장 번호표",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    140,
+    692,
+    256,
+    712
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "500장",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    483,
+    693,
+    544,
+    712
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "일련번호",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    747,
+    692,
+    835,
+    712
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "확인 도장:",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    106,
+    1082,
+    184,
+    1101
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "담당: 인쇄부　사토",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    5,
+    5,
+    5
+   ],
+   "box": [
+    128,
+    1218,
+    321,
+    1238
+   ],
+   "align": "left",
+   "pt": 20
+  },
+  {
+   "text": "주",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    183,
+    93,
+    88
+   ],
+   "box": [
+    412,
+    1048,
+    439,
+    1070
+   ],
+   "align": "center"
+  },
+  {
+   "text": "오",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    183,
+    93,
+    88
+   ],
+   "box": [
+    412,
+    1076,
+    439,
+    1098
+   ],
+   "align": "center"
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+{
+ "w": 1492,
+ "h": 1054,
+ "items": [
+  {
+   "text": "미나미 조명 서비스",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    588,
+    108,
+    902,
+    139
+   ],
+   "align": "center"
+  },
+  {
+   "text": "발행일: 2026년 3월 10일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    1142,
+    165,
+    1410,
+    188
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "조명 기자재 반입 예정표",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    514,
+    186,
+    986,
+    232
+   ],
+   "align": "center",
+   "tracking": 60
+  },
+  {
+   "text": "수신: 극단 오모카게　귀중",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    171,
+    272,
+    478,
+    295
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "아래와 같이 조명 기자재 반입을 예정하고 있습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    172,
+    349,
+    748,
+    373
+   ],
+   "align": "left",
+   "pt": 24
+  },
+  {
+   "text": "기자재",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    353,
+    416,
+    402,
+    439
+   ],
+   "align": "center",
+   "pt": 23
+  },
+  {
+   "text": "수량",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    704,
+    417,
+    753,
+    439
+   ],
+   "align": "center",
+   "pt": 22
+  },
+  {
+   "text": "비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    1092,
+    417,
+    1141,
+    440
+   ],
+   "align": "center",
+   "pt": 23
+  },
+  {
+   "text": "스포트라이트",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    199,
+    478,
+    377,
+    500
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "8대",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    709,
+    479,
+    749,
+    501
+   ],
+   "align": "center",
+   "pt": 22
+  },
+  {
+   "text": "본공연용",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    907,
+    479,
+    981,
+    502
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "조광 콘솔",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    197,
+    541,
+    274,
+    564
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "1세트",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    710,
+    542,
+    750,
+    563
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "반입 완료",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    906,
+    542,
+    983,
+    564
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "연장 케이블",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    197,
+    604,
+    354,
+    627
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "12개",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    702,
+    604,
+    756,
+    626
+   ],
+   "align": "center",
+   "pt": 22
+  },
+  {
+   "text": "예비 포함",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    907,
+    604,
+    1009,
+    627
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "※반입 일시는 따로 연락드리겠습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    177,
+    825,
+    707,
+    847
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "담당: 모리시타",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    979,
+    855,
+    1110,
+    879
+   ],
+   "align": "left",
+   "pt": 24
+  },
+  {
+   "text": "※내용이 바뀌면 미리 연락해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    12,
+    11,
+    10
+   ],
+   "box": [
+    176,
+    881,
+    732,
+    903
+   ],
+   "align": "left",
+   "pt": 22
+  }
+ ]
+}

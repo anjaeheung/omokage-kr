@@ -1,0 +1,398 @@
+{
+ "w": 1055,
+ "h": 1491,
+ "items": [
+  {
+   "text": "의상 관련 발주서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    372,
+    112,
+    690,
+    149
+   ],
+   "align": "center",
+   "tracking": 60
+  },
+  {
+   "text": "발행일: 2026년 3월 10일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    753,
+    188,
+    956,
+    207
+   ],
+   "align": "left",
+   "pt": 19
+  },
+  {
+   "text": "도토 의상관리　귀중",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    123,
+    259,
+    400,
+    288
+   ],
+   "align": "left",
+   "pt": 29
+  },
+  {
+   "text": "늘 신세 지고 있습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    123,
+    353,
+    445,
+    375
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "아래와 같이 의상 관련 발주를 부탁드립니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    123,
+    395,
+    587,
+    417
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "품목",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    233,
+    490,
+    277,
+    511
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "수량",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    484,
+    491,
+    531,
+    512
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    740,
+    491,
+    787,
+    512
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "교복 의상",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    147,
+    559,
+    241,
+    581
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "4벌",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    488,
+    560,
+    528,
+    582
+   ],
+   "align": "center",
+   "pt": 22
+  },
+  {
+   "text": "여고생 역",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    654,
+    560,
+    773,
+    582
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "로퍼",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    150,
+    630,
+    266,
+    651
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "4켤레",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    488,
+    631,
+    528,
+    651
+   ],
+   "align": "center",
+   "pt": 20
+  },
+  {
+   "text": "사이즈 확인 완료",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    655,
+    630,
+    798,
+    652
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "카디건",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    149,
+    698,
+    288,
+    719
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "2벌",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    489,
+    699,
+    528,
+    721
+   ],
+   "align": "center",
+   "pt": 22
+  },
+  {
+   "text": "예비",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    655,
+    700,
+    700,
+    721
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "납품 예정일: 2026/05/21",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    121,
+    1016,
+    358,
+    1035
+   ],
+   "align": "left",
+   "pt": 19
+  },
+  {
+   "text": "납품 장소: 극단 오모카게 연습실",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    121,
+    1072,
+    428,
+    1092
+   ],
+   "align": "left",
+   "pt": 20
+  },
+  {
+   "text": "담당: 의상부　이이지마",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    121,
+    1129,
+    308,
+    1149
+   ],
+   "align": "left",
+   "pt": 20
+  },
+  {
+   "text": "비고: 납품 시 전표를 제출해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    7,
+    6,
+    6
+   ],
+   "box": [
+    121,
+    1246,
+    599,
+    1267
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    180,
+    99,
+    94
+   ],
+   "box": [
+    783,
+    1290,
+    950,
+    1318
+   ],
+   "align": "center",
+   "rotate": -2.4
+  },
+  {
+   "text": "의상부",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    180,
+    99,
+    94
+   ],
+   "box": [
+    820,
+    1333,
+    915,
+    1362
+   ],
+   "align": "center",
+   "rotate": -2.4,
+   "tracking": 250
+  }
+ ]
+}

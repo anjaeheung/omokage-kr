@@ -1,0 +1,1067 @@
+{
+ "w": 1024,
+ "h": 1536,
+ "items": [
+  {
+   "text": "극단 오모카게　제작부 앞",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    145,
+    102,
+    335,
+    116
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "재연 의뢰서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    392,
+    145,
+    625,
+    176
+   ],
+   "align": "center",
+   "pt": 29,
+   "tracking": 280
+  },
+  {
+   "text": "신청일: 2026년 4월 25일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    728,
+    155,
+    890,
+    174
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "아래와 같이 당 극단에 특정 인물을 참고로 한 재연을 의뢰합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    113,
+    208,
+    675,
+    226
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "본 의뢰서는 작품 제작을 위한 참고 자료 제공 및 정보 이용에 관한 합의를 목적으로 합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    112,
+    235,
+    839,
+    254
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "내용을 확인하신 뒤 서명·날인하여 제출해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    112,
+    262,
+    527,
+    280
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "의뢰자 정보",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    109,
+    303,
+    190,
+    317
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "의뢰자 성명(자필)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    120,
+    346,
+    254,
+    360
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "연락처",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    119,
+    392,
+    164,
+    404
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "이메일 주소",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    118,
+    441,
+    226,
+    452
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "주소",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    117,
+    488,
+    161,
+    501
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물에 관하여",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    102,
+    534,
+    232,
+    548
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물 성명",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    112,
+    578,
+    205,
+    592
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물과의 관계",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    110,
+    628,
+    238,
+    642
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "생년월일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    109,
+    671,
+    173,
+    684
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(모를 경우 대략)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    116,
+    690,
+    256,
+    704
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "기타 비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    108,
+    733,
+    186,
+    746
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "라이프스타일에 관하여",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    103,
+    851,
+    281,
+    863
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(생활 환경·습관·가치관 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    101,
+    877,
+    297,
+    889
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "말투의 특징",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    95,
+    996,
+    194,
+    1011
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(어조·어미·자주 쓰는 말 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    95,
+    1023,
+    294,
+    1035
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "제공 자료",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    91,
+    1082,
+    157,
+    1096
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(사진·영상·편지·음성 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    92,
+    1106,
+    284,
+    1119
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "여고생.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    787,
+    640,
+    800
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "평일에는 학교에 다니고,",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    806,
+    640,
+    819
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "방과 후에는 교실에서 지내거나",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    825,
+    640,
+    839
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "동아리나 친구들과 시간을 보낸다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    844,
+    640,
+    858
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "휴일에는 집에서 지낼 때가 많고,",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    863,
+    640,
+    878
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "취미는 음악 감상과 독서.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    883,
+    640,
+    897
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "진로에 불안을 품으면서도",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    903,
+    640,
+    917
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "반 친구들과 나누는 소소한 대화나",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    923,
+    640,
+    937
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "작은 일에 기쁨을 느낀다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    942,
+    640,
+    956
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "또래 소녀다운 일상을 보내고 있다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    329,
+    960,
+    640,
+    975
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "밝고 활발함.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    327,
+    990,
+    640,
+    1004
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "화낼 때는 조용히 화낸다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    327,
+    1011,
+    640,
+    1025
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "전형적인 또래 여자아이.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    327,
+    1032,
+    640,
+    1047
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "사진: 약 75장",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    325,
+    1066,
+    640,
+    1081
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "영상: 23개(DVD·영상 데이터)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    325,
+    1087,
+    640,
+    1102
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "편지: 3통",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    325,
+    1108,
+    640,
+    1122
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "그 밖의 메모·소지품 몇 점",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    325,
+    1129,
+    640,
+    1143
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "합의 사항",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    85,
+    1162,
+    152,
+    1177
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰에 따라 제공된 정보·자료는 당 극단의 작품 제작에만 사용합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    90,
+    1188,
+    668,
+    1204
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 제공 자료는 돌려드리지 못할 수 있습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    89,
+    1210,
+    428,
+    1225
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 재연 대상은 어디까지나 「참고 인물」이며, 본인의 완전한 재현을 보장하지 않습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    88,
+    1232,
+    749,
+    1249
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰에 관한 내용은 외부에 공개하지 않습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    87,
+    1255,
+    444,
+    1270
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 공연 종료 후의 생활 차이에 대해서는 보장하지 않는다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    86,
+    1277,
+    428,
+    1292
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 배우와의 직접 접촉은 공연 종료 이후로 합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    85,
+    1300,
+    427,
+    1315
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰서는 쌍방의 합의로 성립합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    84,
+    1322,
+    412,
+    1338
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "위 내용에 동의하여 재연을 의뢰합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    74,
+    1364,
+    442,
+    1378
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "서명(자필)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    260,
+    1402,
+    348,
+    1417
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "※기입하신 개인 정보는 당 극단의 제작 활동 범위 안에서 적절히 관리합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    65,
+    1458,
+    640,
+    1473
+   ],
+   "align": "left",
+   "pt": 14
+  },
+  {
+   "text": "개정일: 2026년 4월 1일 (Ver.1.0)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    49,
+    48,
+    48
+   ],
+   "box": [
+    746,
+    1458,
+    956,
+    1473
+   ],
+   "align": "left",
+   "pt": 14
+  },
+  {
+   "text": "다카기 히데오",
+   "font": "NanumPen-Regular",
+   "color": [
+    41,
+    39,
+    39
+   ],
+   "box": [
+    343,
+    341,
+    520,
+    368
+   ],
+   "align": "left",
+   "pt": 36,
+   "tracking": 60,
+   "sw": 1.5
+  },
+  {
+   "text": "다카기 미사키",
+   "font": "NanumPen-Regular",
+   "color": [
+    41,
+    39,
+    39
+   ],
+   "box": [
+    335,
+    572,
+    520,
+    600
+   ],
+   "align": "left",
+   "pt": 36,
+   "tracking": 60,
+   "sw": 1.5
+  },
+  {
+   "text": "아버지",
+   "font": "NanumPen-Regular",
+   "color": [
+    41,
+    39,
+    39
+   ],
+   "box": [
+    336,
+    625,
+    440,
+    649
+   ],
+   "align": "left",
+   "pt": 36,
+   "tracking": 60,
+   "sw": 1.5
+  },
+  {
+   "text": "다카기 히데오",
+   "font": "NanumPen-Regular",
+   "color": [
+    41,
+    39,
+    39
+   ],
+   "box": [
+    458,
+    1385,
+    640,
+    1419
+   ],
+   "align": "left",
+   "pt": 40,
+   "tracking": 60,
+   "sw": 1.5
+  },
+  {
+   "text": "인",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    146,
+    62,
+    50
+   ],
+   "box": [
+    724,
+    1385,
+    745,
+    1409
+   ],
+   "align": "center"
+  },
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    146,
+    62,
+    50
+   ],
+   "box": [
+    802,
+    1332,
+    930,
+    1362
+   ],
+   "align": "center"
+  },
+  {
+   "text": "제작부",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    146,
+    62,
+    50
+   ],
+   "box": [
+    823,
+    1372,
+    908,
+    1405
+   ],
+   "align": "center",
+   "tracking": 200
+  },
+  {
+   "text": "오모카게",
+   "font": "NanumPen-Regular",
+   "color": [
+    44,
+    71,
+    86
+   ],
+   "box": [
+    925,
+    112,
+    960,
+    122
+   ],
+   "align": "center"
+  },
+  {
+   "text": "제작부로",
+   "font": "NanumPen-Regular",
+   "color": [
+    44,
+    71,
+    86
+   ],
+   "box": [
+    925,
+    123,
+    964,
+    136
+   ],
+   "align": "center"
+  },
+  {
+   "circle": [
+    734,
+    1397,
+    20
+   ],
+   "color": [
+    146,
+    62,
+    50
+   ],
+   "sw": 1.8,
+   "box": [
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ]
+}

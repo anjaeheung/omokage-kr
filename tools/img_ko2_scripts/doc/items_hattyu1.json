@@ -1,0 +1,362 @@
+{
+ "w": 1469,
+ "h": 1071,
+ "items": [
+  {
+   "text": "간사이 무대설비 주식회사",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    571,
+    84,
+    893,
+    113
+   ],
+   "align": "center"
+  },
+  {
+   "text": "발행일: 2026년 3월 10일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    1121,
+    137,
+    1384,
+    160
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "무대 비품 발주 확인서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    525,
+    167,
+    935,
+    208
+   ],
+   "align": "center",
+   "tracking": 60
+  },
+  {
+   "text": "수신: 극단 오모카게　귀중",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    165,
+    260,
+    464,
+    282
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "아래와 같이 무대 비품 발주 내용을 확인해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    163,
+    334,
+    743,
+    357
+   ],
+   "align": "left",
+   "pt": 23
+  },
+  {
+   "text": "품목",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    345,
+    401,
+    387,
+    421
+   ],
+   "align": "center",
+   "pt": 20
+  },
+  {
+   "text": "수량",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    689,
+    400,
+    735,
+    421
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    1049,
+    398,
+    1096,
+    419
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "접이식 의자",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    196,
+    459,
+    319,
+    481
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "20개",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    688,
+    460,
+    738,
+    481
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "연습실용",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    886,
+    459,
+    1008,
+    481
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "긴 책상",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    194,
+    521,
+    241,
+    543
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "6개",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    696,
+    522,
+    733,
+    543
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "대기실 포함",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    887,
+    521,
+    983,
+    542
+   ],
+   "align": "left",
+   "pt": 21
+  },
+  {
+   "text": "암막",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    193,
+    583,
+    240,
+    605
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "4장",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    694,
+    583,
+    734,
+    604
+   ],
+   "align": "center",
+   "pt": 21
+  },
+  {
+   "text": "무대 옆용",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    887,
+    582,
+    1009,
+    604
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "※납품 일시는 추후 연락드리겠습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    173,
+    778,
+    553,
+    798
+   ],
+   "align": "left",
+   "pt": 20
+  },
+  {
+   "text": "※위 내용과 다른 점이 있으면 3일 안에 연락해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    172,
+    831,
+    766,
+    851
+   ],
+   "align": "left",
+   "pt": 20
+  },
+  {
+   "text": "담당: 기타무라",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    963,
+    829,
+    1089,
+    851
+   ],
+   "align": "left",
+   "pt": 22
+  },
+  {
+   "text": "※취소는 납품일 5일 전까지 연락 부탁드립니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    16,
+    15,
+    14
+   ],
+   "box": [
+    170,
+    884,
+    804,
+    904
+   ],
+   "align": "left",
+   "pt": 20
+  }
+ ]
+}

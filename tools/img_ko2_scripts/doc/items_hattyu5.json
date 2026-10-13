@@ -1,0 +1,189 @@
+{
+ "w": 1054,
+ "h": 1492,
+ "items": [
+  {
+   "text": "도한 공동 관리 센터",
+   "font": "NotoSansKR-Bold",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    344,
+    239,
+    716,
+    274
+   ],
+   "align": "center"
+  },
+  {
+   "text": "시설 예약 확인서",
+   "font": "NotoSansKR-Bold",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    348,
+    343,
+    715,
+    389
+   ],
+   "align": "center"
+  },
+  {
+   "text": "예약 번호",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    187,
+    536,
+    301,
+    562
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "이용 시설",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    186,
+    660,
+    301,
+    685
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "반입 예정",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    186,
+    780,
+    301,
+    806
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "확인 사항",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    186,
+    904,
+    302,
+    930
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "제휴 화장장　제2 반입구",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    421,
+    659,
+    738,
+    687
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "미정",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    421,
+    780,
+    479,
+    808
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "출하 시기 확정 후 최종 연락",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    424,
+    903,
+    773,
+    930
+   ],
+   "align": "left",
+   "pt": 27
+  },
+  {
+   "text": "관계자 외 열람 금지",
+   "font": "NotoSansKR-Bold",
+   "color": [
+    22,
+    22,
+    22
+   ],
+   "box": [
+    370,
+    1066,
+    703,
+    1097
+   ],
+   "align": "center"
+  },
+  {
+   "text": "변경함",
+   "font": "Gaegu-Regular",
+   "color": [
+    51,
+    50,
+    65
+   ],
+   "box": [
+    742,
+    46,
+    826,
+    84
+   ],
+   "align": "left"
+  }
+ ]
+}

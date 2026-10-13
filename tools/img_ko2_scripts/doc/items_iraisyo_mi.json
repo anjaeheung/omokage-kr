@@ -1,0 +1,669 @@
+{
+ "w": 1023,
+ "h": 1537,
+ "items": [
+  {
+   "text": "극단 오모카게　제작부 앞",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    143,
+    106,
+    326,
+    120
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "재연 의뢰서",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    392,
+    151,
+    606,
+    179
+   ],
+   "align": "center",
+   "pt": 29,
+   "tracking": 280
+  },
+  {
+   "text": "아래와 같이 당 극단에 특정 인물을 참고로 한 재연을 의뢰합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    114,
+    214,
+    655,
+    228
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "본 의뢰서는 작품 제작을 위한 참고 자료 제공 및 정보 이용에 관한 합의를 목적으로 합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    114,
+    241,
+    825,
+    255
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "내용을 확인하신 뒤 서명·날인하여 제출해 주십시오.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    113,
+    269,
+    514,
+    283
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "의뢰자 정보",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    113,
+    315,
+    190,
+    329
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "의뢰자 성명(자필)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    122,
+    362,
+    252,
+    375
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "연락처",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    121,
+    414,
+    165,
+    427
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "이메일 주소",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    121,
+    467,
+    226,
+    479
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "주소",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    120,
+    521,
+    163,
+    534
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물에 관하여",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    108,
+    576,
+    233,
+    590
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물 성명",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    114,
+    624,
+    215,
+    638
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "참고 인물과의 관계",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    116,
+    678,
+    239,
+    692
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "생년월일",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    115,
+    721,
+    174,
+    735
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(모를 경우 대략)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    121,
+    742,
+    257,
+    755
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "기타 비고",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    114,
+    786,
+    189,
+    799
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "라이프스타일에 관하여",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    111,
+    886,
+    275,
+    898
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(생활 환경·습관·가치관 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    109,
+    913,
+    289,
+    925
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "말투의 특징",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    105,
+    1000,
+    196,
+    1013
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(어조·어미·자주 쓰는 말 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    105,
+    1028,
+    285,
+    1040
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "제공 자료",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    102,
+    1089,
+    162,
+    1103
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "(사진·영상·편지·음성 등)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    102,
+    1116,
+    280,
+    1129
+   ],
+   "align": "left",
+   "pt": 13
+  },
+  {
+   "text": "합의 사항",
+   "font": "NotoSerifKR-SemiBold",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    90,
+    1172,
+    153,
+    1186
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰에 따라 제공된 정보·자료는 당 극단의 작품 제작에만 사용합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    96,
+    1197,
+    658,
+    1213
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 제공 자료는 돌려드리지 못할 수 있습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    95,
+    1221,
+    423,
+    1236
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 재연 대상은 어디까지나 「참고 인물」이며, 본인의 완전한 재현을 보장하지 않습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    95,
+    1243,
+    737,
+    1259
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰에 관한 내용은 외부에 공개하지 않습니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    94,
+    1267,
+    438,
+    1283
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 공연 종료 후의 생활 차이에 대해서는 보장하지 않는다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    93,
+    1290,
+    423,
+    1305
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 배우와의 직접 접촉은 공연 종료 이후로 합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    93,
+    1313,
+    423,
+    1329
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "· 본 의뢰서는 쌍방의 합의로 성립합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    92,
+    1337,
+    407,
+    1353
+   ],
+   "align": "left",
+   "pt": 15
+  },
+  {
+   "text": "위 내용에 동의하여 재연을 의뢰합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    83,
+    1377,
+    437,
+    1393
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "서명(자필)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    279,
+    1417,
+    364,
+    1432
+   ],
+   "align": "left",
+   "pt": 16
+  },
+  {
+   "text": "※기입하신 개인 정보는 당 극단의 제작 활동 범위 안에서 적절히 관리합니다.",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    77,
+    1462,
+    632,
+    1478
+   ],
+   "align": "left",
+   "pt": 14
+  },
+  {
+   "text": "개정일: 2026년 4월 1일 (Ver.1.0)",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    747,
+    1461,
+    954,
+    1475
+   ],
+   "align": "left",
+   "pt": 14
+  },
+  {
+   "text": "신청일:",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "pt": 15,
+   "box": [
+    715,
+    165,
+    775,
+    177
+   ],
+   "align": "left"
+  },
+  {
+   "text": "인",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "box": [
+    718,
+    1409,
+    730,
+    1424
+   ],
+   "align": "center"
+  },
+  {
+   "text": "오모카게",
+   "font": "NanumPen-Regular",
+   "color": [
+    44,
+    71,
+    86
+   ],
+   "box": [
+    889,
+    113,
+    924,
+    123
+   ],
+   "align": "center"
+  },
+  {
+   "text": "제작부로",
+   "font": "NanumPen-Regular",
+   "color": [
+    44,
+    71,
+    86
+   ],
+   "box": [
+    889,
+    126,
+    925,
+    137
+   ],
+   "align": "center"
+  },
+  {
+   "circle": [
+    724,
+    1416.5,
+    13.5
+   ],
+   "color": [
+    64,
+    62,
+    63
+   ],
+   "sw": 1.5,
+   "box": [
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ]
+}
