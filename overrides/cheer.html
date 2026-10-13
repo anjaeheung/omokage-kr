@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>응원 메시지 남기기｜극단 오모카게 「봄을 기다리며」</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #140606; --panel: rgba(20, 4, 4, 0.82); --line: rgba(184, 148, 92, 0.55); --gold: #c9a36a; --text: #eee3d6; --sub: #b9a99a; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body { background: var(--bg) url("images/topbanner.png") center top / cover fixed no-repeat; color: var(--text); line-height: 1.85;
+           font-family: "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; background: linear-gradient(rgba(20, 2, 2, 0.78), rgba(10, 0, 0, 0.93)); z-index: -1; }
+    main { width: min(760px, 100%); margin: 0 auto; padding: 56px 16px 64px; display: grid; gap: 24px; }
+    header { text-align: center; padding: 36px 20px 28px; border: 1px solid var(--line); background: var(--panel); }
+    .eyebrow { margin: 0 0 10px; font-family: "Noto Serif KR", serif; letter-spacing: .3em; color: var(--gold); font-size: .8rem; }
+    h1 { margin: 0; font-family: "Noto Serif KR", serif; font-weight: 700; font-size: clamp(1.5rem, 5vw, 2rem); letter-spacing: .08em; }
+    .byline { margin: 10px 0 0; color: var(--sub); font-size: .9rem; }
+    .intro, section { border: 1px solid var(--line); background: var(--panel); padding: 20px 22px; }
+    .intro p { margin: 0 0 8px; font-size: .93rem; word-break: keep-all; } .intro p:last-child { margin: 0; color: var(--sub); font-size: .86rem; }
+    h2 { margin: 0 0 14px; font-family: "Noto Serif KR", serif; font-size: 1rem; letter-spacing: .12em; color: var(--gold); }
+    form { display: grid; gap: 14px; }
+    label { display: grid; gap: 4px; font-size: .88rem; color: var(--sub); }
+    input, select, textarea { font: inherit; font-size: 15px; color: var(--text); background: rgba(0,0,0,.35); border: 1px solid var(--line); padding: 9px 11px; width: 100%; }
+    input:focus, select:focus, textarea:focus { outline: 1px solid var(--gold); outline-offset: 0; }
+    textarea { min-height: 130px; resize: vertical; }
+    .tpl { border: 1px dashed var(--line); padding: 10px 12px; }
+    .tpl .ja { font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; color: #f1d9b0; }
+    .tpl .ko { color: var(--sub); font-size: .82rem; }
+    .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+    button { font: inherit; font-size: .9rem; cursor: pointer; padding: 9px 22px; color: var(--text); background: transparent; border: 1px solid var(--gold); letter-spacing: .1em; }
+    button:hover { background: rgba(201,163,106,.18); }
+    button.sub { border-color: var(--line); font-size: .82rem; padding: 6px 14px; }
+    button:disabled { opacity: .5; cursor: default; }
+    .status { font-size: .85rem; color: var(--gold); min-height: 1.4em; }
+    .hp { position: absolute; left: -9999px; }
+    ul.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+    ul.list li { border: 1px solid rgba(184,148,92,.3); border-left: 3px solid var(--gold); padding: 10px 14px; min-width: 0; background: rgba(0,0,0,.25); }
+    .who { font-weight: 500; }
+    .meta { color: var(--sub); font-size: .78rem; margin-left: 6px; }
+    .msg { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 4px; font-size: .95rem; }
+    .dim { color: var(--sub); font-size: .85rem; }
+    .back { text-align: center; font-size: .9rem; } .back a { color: #e2c08d; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">THANK YOU</p>
+    <h1>응원 메시지 남기기</h1>
+    <p class="byline">극단 오모카게 제15회 공연 「봄을 기다리며」 · 원작 うに</p>
+  </header>
+
+  <div class="intro">
+    <p>「봄을 기다리며」를 끝까지 플레이해 주셔서 감사합니다.<br>
+    원작자 うに 님께 응원 메시지를 남겨 주세요. 여기 모인 메시지는 원작자께 전해집니다.</p>
+    <p>※ 원작자는 일본어를 쓰세요. 아래 일본어 템플릿을 넣고 하고 싶은 말을 덧붙이면 더 잘 전해져요. 한국어로만 적어도 괜찮아요.<br>
+    ※ 다른 사람도 볼 수 있으니 정답이나 결말은 적지 말아 주세요.</p>
+  </div>
+
+  <section>
+    <h2>응원 메시지 쓰기</h2>
+    <form id="f" autocomplete="off">
+      <label>이름(닉네임)
+        <input id="name" maxlength="30" placeholder="익명의 관객">
+      </label>
+      <label>본 엔딩(선택)
+        <select id="ending">
+          <option value="">고르지 않음</option>
+          <option>TRUE END</option>
+          <option>ANOTHER END</option>
+          <option>두 엔딩 모두</option>
+        </select>
+      </label>
+      <div class="tpl">
+        <div class="ja" id="tplJa">韓国語版で『春を待つ』を最後まで遊びました、素敵なゲームを本当にありがとうございます！</div>
+        <div class="ko">(한국어판으로 『봄을 기다리며』를 끝까지 플레이했어요, 멋진 게임을 정말 고맙습니다!)</div>
+        <div class="row" style="margin-top:8px"><button type="button" class="sub" id="useTpl">템플릿 넣기</button></div>
+      </div>
+      <label>메모
+        <textarea id="msg" maxlength="600" placeholder="재밌었던 장면, 기억에 남는 인물, 다음 작품에 바라는 점…"></textarea>
+      </label>
+      <input class="hp" id="website" tabindex="-1" aria-hidden="true">
+      <div class="row"><button id="send" type="submit">남기기</button><span class="status" id="st"></span></div>
+    </form>
+  </section>
+
+  <section>
+    <h2>모인 응원 메시지 <span class="dim" id="count"></span></h2>
+    <ul class="list" id="list"><li class="dim">불러오는 중…</li></ul>
+  </section>
+
+  <p class="back"><a href="index.html">처음으로 돌아가기</a></p>
+</main>
+<script>
+  const API = "https://iamnot-cheer.cordellia.workers.dev/api/cheers", GAME = "omokage";
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmt = t => { const d = new Date(t * 1000); return `${d.getFullYear()}.${d.getMonth() + 1}.${d.getDate()}`; };
+  async function load() {
+    try {
+      const j = await (await fetch(API + "?game=" + GAME)).json(); const L = j.cheers || [];
+      $("count").textContent = L.length ? `(${L.length})` : "";
+      $("list").innerHTML = L.length ? L.map(c =>
+        `<li><span class="who">${esc(c.name)}</span><span class="meta">${c.ending ? esc(c.ending) + " · " : ""}${fmt(c.created)}</span><div class="msg">${esc(c.msg)}</div></li>`
+      ).join("") : '<li class="dim">아직 메시지가 없어요. 첫 메시지를 남겨 주세요!</li>';
+    } catch (e) { $("list").innerHTML = '<li class="dim">목록을 불러오지 못했어요. 잠시 뒤 새로고침해 주세요.</li>'; }
+  }
+  $("useTpl").onclick = () => {
+    const t = $("tplJa").textContent, m = $("msg");
+    if (!m.value.includes(t)) m.value = t + (m.value ? "\n" + m.value : "\n");
+    m.focus(); m.setSelectionRange(m.value.length, m.value.length);
+  };
+  try { const n = localStorage.getItem("omokage_cheer_name"); if (n) $("name").value = n; } catch (e) {}
+  $("f").onsubmit = async ev => {
+    ev.preventDefault();
+    const msg = $("msg").value.trim();
+    if (msg.length < 2) { $("st").textContent = "메모를 적어 주세요."; return; }
+    $("send").disabled = true; $("st").textContent = "보내는 중…";
+    try {
+      const r = await fetch(API, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ to: "author", game: GAME, name: $("name").value, ending: $("ending").value, msg, website: $("website").value }) });
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || "실패");
+      try { localStorage.setItem("omokage_cheer_name", $("name").value); } catch (e) {}
+      $("msg").value = ""; $("st").textContent = "고마워요! 메시지가 남았어요.";
+      load();
+    } catch (e) { $("st").textContent = e.message || "보내지 못했어요. 잠시 뒤 다시 해 주세요."; }
+    $("send").disabled = false;
+  };
+  load();
+</script>
+</body>
+</html>

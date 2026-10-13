@@ -267,9 +267,28 @@ def fix_flyer_zoom():
     print("  zoom    지난 공연 전단 누르면 크게(제10회 제외)")
 
 
+def fix_cheer():
+    """엔딩 두 곳의 버튼 줄에 「원작자께 응원 메시지」(overrides/cheer.html, 공용 Worker iamnot-cheer, game=omokage)를
+    「처음으로 돌아가기」 앞에 넣는다(콘테 10-14, 아임낫·미정리기록·저택과 같게)."""
+    n = 0
+    for rel, cls in (("records/true-end.html", "share-button white"), ("records/another-end.html", "share-button")):
+        s = read(rel)
+        if "cheer.html" in s:
+            n += 1; continue
+        new = re.sub(r'(<a class="%s"\s+href="\.\./index\.html">)' % re.escape(cls),
+                     '<a class="%s" href="../cheer.html">원작자께 응원 메시지 남기기</a>\n\n      \\1' % cls, s, count=1)
+        if new == s:
+            FAIL.append("cheer: %s 버튼 줄을 못 찾음" % rel); continue
+        write(rel, new); n += 1
+    if not (SITE / "cheer.html").exists():
+        FAIL.append("cheer: cheer.html 없음")
+    print("  cheer   엔딩 응원 메시지 버튼 %d곳" % n)
+
+
 def main():
     fix_lang_and_host()
     fix_gate()
+    fix_cheer()
     fix_flyer_zoom()
     fix_hero_title()
     fix_fonts()
