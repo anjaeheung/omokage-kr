@@ -1,0 +1,122 @@
+{
+ "w": 941,
+ "h": 1672,
+ "items": [
+  {
+   "svg": "dip_geukdan.svg",
+   "color": [
+    104,
+    28,
+    17
+   ],
+   "sw": 2.5,
+   "box": [
+    236,
+    481,
+    278,
+    505
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_omokage.svg",
+   "color": [
+    104,
+    28,
+    17
+   ],
+   "sw": 3,
+   "box": [
+    200,
+    508,
+    310,
+    538
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_sogeukjang.svg",
+   "color": [
+    104,
+    28,
+    17
+   ],
+   "sw": 2,
+   "box": [
+    230,
+    561,
+    282,
+    583
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_geukdan.svg",
+   "color": [
+    88,
+    22,
+    14
+   ],
+   "sw": 3.5,
+   "box": [
+    680,
+    612,
+    745,
+    662
+   ],
+   "align": "center",
+   "rotate": -2
+  },
+  {
+   "svg": "dip_omokage.svg",
+   "color": [
+    88,
+    22,
+    14
+   ],
+   "sw": 4.5,
+   "box": [
+    640,
+    680,
+    790,
+    733
+   ],
+   "align": "center",
+   "rotate": -2
+  },
+  {
+   "svg": "dip_sogeukjang.svg",
+   "color": [
+    88,
+    22,
+    14
+   ],
+   "sw": 3,
+   "box": [
+    675,
+    795,
+    745,
+    828
+   ],
+   "align": "center",
+   "rotate": -2
+  },
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    141,
+    95,
+    61
+   ],
+   "box": [
+    493,
+    758,
+    585,
+    785
+   ],
+   "align": "center",
+   "rotate": -4
+  }
+ ]
+}
