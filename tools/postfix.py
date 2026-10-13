@@ -3,7 +3,7 @@
 
   · lang="ja" → "ko", 공유 주소(og:url·og:image)를 한국어판 주소로
   · 한글 글꼴: Shippori Mincho 옆에 Noto Serif KR, Noto Sans JP 앞에 Noto Sans KR
-  · 내부 기록 검색(records/js/script.js 의 searchData): 한국어 검색어를 더하고(일본어 원문도 계속 받음),
+  · 내부 기록 검색(records/js/script.js 의 searchData): 한국어 검색어로만 찾게 하고(일본어 원문 검색어는 받지 않음 — 콘테 「일본어로 치면 나오면 안 되지」),
     띄어쓰기·대소문자를 가리지 않게, 결과 제목·문구를 한국어로
   · 엔딩 두 곳의 「X에 공유」 버튼을 뺀다(한국 플레이어는 X 를 잘 안 쓴다 — 자르댕·아임낫과 같게)
   · 「© うに」 아래 번역자 표기
@@ -121,16 +121,15 @@ def fix_search():
     titles.update({"劇団員ページ%03d" % i: "극단원 페이지%03d" % i for i in (1, 2, 3, 6, 9, 14, 22, 23, 26)})
     titles.update({"記録_%d" % i: "기록_%d" % i for i in range(1, 4)})
     block = (
-        "\n\n/* 한국어판: 한국어 검색어를 더하고(일본어 원문도 그대로 받는다), 띄어쓰기·대소문자를 가리지 않는다 */\n"
+        "\n\n/* 한국어판: 한국어 검색어로만 찾는다(일본어 원문 검색어는 받지 않음), 띄어쓰기·대소문자를 가리지 않는다 */\n"
         "const searchKo = " + json.dumps(SEARCH_KO, ensure_ascii=False) + ";\n"
         "const searchTitleKo = " + json.dumps(titles, ensure_ascii=False) + ";\n"
         "Object.keys(searchKo).forEach(ja => {\n"
         "  searchData[ja].forEach(item => { if (searchTitleKo[item.title]) item.title = searchTitleKo[item.title]; });\n"
-        "  searchKo[ja].forEach(ko => { searchData[ko] = searchData[ja]; });\n"
         "});\n"
         "const searchNorm = s => s.replace(/[\\s\\u3000]+/g, \"\").toLowerCase();\n"
         "const searchIndex = {};\n"
-        "Object.keys(searchData).forEach(k => { searchIndex[searchNorm(k)] = searchData[k]; });\n"
+        "Object.keys(searchKo).forEach(ja => { searchKo[ja].forEach(ko => { searchIndex[searchNorm(ko)] = searchData[ja]; }); });\n"
     )
     m = re.search(r"const searchData = \{.*?\n\};\n", s, re.S)
     if not m:
