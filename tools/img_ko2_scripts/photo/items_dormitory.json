@@ -1,0 +1,42 @@
+{
+ "w": 1448,
+ "h": 1086,
+ "items": [
+  {
+   "text": "오모카게 기숙사",
+   "font": "NotoSansKR-Regular",
+   "align": "center",
+   "tracking": 160,
+   "rotate": -5,
+   "color": [
+    150,
+    143,
+    134
+   ],
+   "box": [
+    506.5,
+    483.5,
+    736.5,
+    528.5
+   ]
+  },
+  {
+   "text": "오모카게 기숙사",
+   "font": "NotoSansKR-Regular",
+   "align": "center",
+   "tracking": 160,
+   "rotate": -5,
+   "color": [
+    62,
+    58,
+    55
+   ],
+   "box": [
+    505,
+    482,
+    735,
+    527
+   ]
+  }
+ ]
+}

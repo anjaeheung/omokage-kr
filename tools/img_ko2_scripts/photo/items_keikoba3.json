@@ -1,0 +1,381 @@
+{
+ "w": 1086,
+ "h": 1448,
+ "items": [
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 19,
+   "box": [
+    14,
+    104,
+    145,
+    124
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "제10회 공연",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 19,
+   "box": [
+    14,
+    146,
+    120,
+    168
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "「봄을 기다리며」",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 19,
+   "box": [
+    14,
+    195,
+    150,
+    222
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "주연: 여고생",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    16,
+    247,
+    140,
+    265
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "장르: 청춘극",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    16,
+    276,
+    150,
+    294
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "줄거리:",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    16,
+    333,
+    90,
+    350
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "졸업식까지 앞으로 3주.",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    365,
+    170,
+    383
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "진로도 정하지 못한 채",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    394,
+    135,
+    412
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "교실 구석에서 하루하루를 보낸다.",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    424,
+    215,
+    442
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "방과 후 시청각실에서",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    454,
+    160,
+    472
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "낡은 연극 대본을 발견하면서",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    483,
+    240,
+    501
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "그녀의 시간이 천천히 움직이기 시작한다.",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    19,
+    512,
+    230,
+    530
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "공연 콘셉트",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    304,
+    238,
+    395,
+    256
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "기억",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    305,
+    280,
+    335,
+    296
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "· 시간의 조각",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    302,
+    315,
+    375,
+    332
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "· 집 / 빈자리",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    302,
+    350,
+    370,
+    367
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "· 계승",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    302,
+    387,
+    340,
+    404
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "· 용서",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    200,
+    200,
+    195
+   ],
+   "pt": 14,
+   "box": [
+    302,
+    421,
+    340,
+    438
+   ],
+   "align": "left",
+   "rotate": -4
+  },
+  {
+   "text": "봄을 기다리며",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    150,
+    150,
+    152
+   ],
+   "box": [
+    340,
+    1114,
+    470,
+    1156
+   ],
+   "align": "center",
+   "rotate": -12
+  },
+  {
+   "text": "대본",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    150,
+    150,
+    152
+   ],
+   "box": [
+    353,
+    1189,
+    404,
+    1213
+   ],
+   "align": "center",
+   "rotate": -12
+  },
+  {
+   "text": "동의서",
+   "font": "NotoSansKR-Medium",
+   "color": [
+    58,
+    57,
+    60
+   ],
+   "box": [
+    925,
+    1118,
+    1022,
+    1170
+   ],
+   "align": "center",
+   "rotate": -9
+  }
+ ]
+}

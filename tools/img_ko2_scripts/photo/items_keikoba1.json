@@ -1,0 +1,40 @@
+{
+ "w": 1086,
+ "h": 1448,
+ "items": [
+  {
+   "text": "봄을 기다리며",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    63,
+    55,
+    49
+   ],
+   "box": [
+    440,
+    697,
+    560,
+    745
+   ],
+   "align": "center",
+   "rotate": 15
+  },
+  {
+   "text": "대본",
+   "font": "NotoSerifKR-Regular",
+   "color": [
+    63,
+    55,
+    49
+   ],
+   "box": [
+    492,
+    762,
+    532,
+    784
+   ],
+   "align": "center",
+   "rotate": 15
+  }
+ ]
+}

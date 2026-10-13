@@ -1,0 +1,17 @@
+{
+ "src": "src_dormitory.png",
+ "boxes": [
+  {
+   "id": "s",
+   "box": [
+    510,
+    473,
+    728,
+    535
+   ],
+   "cond": "lum<200",
+   "grow": 3,
+   "minblob": 2
+  }
+ ]
+}

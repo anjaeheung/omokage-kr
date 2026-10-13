@@ -1,0 +1,24 @@
+{
+ "w": 1086,
+ "h": 1448,
+ "items": [
+  {
+   "text": "극단원 안내서",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    128,
+    120,
+    114
+   ],
+   "box": [
+    288,
+    1100,
+    515,
+    1136
+   ],
+   "align": "center",
+   "rotate": 6,
+   "tracking": 200
+  }
+ ]
+}

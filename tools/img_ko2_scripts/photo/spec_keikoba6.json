@@ -1,0 +1,17 @@
+{
+ "src": "src_keikoba6.png",
+ "boxes": [
+  {
+   "id": "t",
+   "box": [
+    280,
+    1092,
+    525,
+    1145
+   ],
+   "cond": "lum>90",
+   "grow": 3,
+   "minblob": 3
+  }
+ ]
+}

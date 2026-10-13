@@ -1,0 +1,234 @@
+{
+ "w": 1536,
+ "h": 1024,
+ "items": [
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSansKR-Bold",
+   "color": [
+    15,
+    20,
+    26
+   ],
+   "box": [
+    195,
+    41,
+    420,
+    78
+   ],
+   "align": "left"
+  },
+  {
+   "text": "극단 오모카게에서 현재 신입 단원을 모집하고 있습니다.",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    15,
+    20,
+    26
+   ],
+   "pt": 34,
+   "box": [
+    53,
+    193,
+    1087,
+    232
+   ],
+   "align": "left"
+  },
+  {
+   "text": "나이·성별 무관, 경험이 없는 분도 대환영입니다!",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    15,
+    20,
+    26
+   ],
+   "pt": 34,
+   "box": [
+    54,
+    262,
+    800,
+    302
+   ],
+   "align": "left"
+  },
+  {
+   "text": "#극단오모카게",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    26,
+    158,
+    248
+   ],
+   "pt": 34,
+   "box": [
+    748,
+    262,
+    1100,
+    302
+   ],
+   "align": "left"
+  },
+  {
+   "text": "1.2만",
+   "font": "NotoSansKR-Regular",
+   "color": [
+    111,
+    126,
+    139
+   ],
+   "pt": 31,
+   "box": [
+    1110,
+    959,
+    1185,
+    985
+   ],
+   "align": "left"
+  },
+  {
+   "svg": "dip_geukdan.svg",
+   "color": [
+    110,
+    13,
+    7
+   ],
+   "sw": 2,
+   "box": [
+    530,
+    360,
+    566,
+    383
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_omokage.svg",
+   "color": [
+    110,
+    13,
+    7
+   ],
+   "sw": 3,
+   "box": [
+    498,
+    382,
+    592,
+    410
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_sogeukjang.svg",
+   "color": [
+    110,
+    13,
+    7
+   ],
+   "sw": 1.5,
+   "box": [
+    526,
+    430,
+    570,
+    447
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_geukdan.svg",
+   "color": [
+    87,
+    8,
+    4
+   ],
+   "sw": 3,
+   "box": [
+    1148,
+    470,
+    1208,
+    512
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_omokage.svg",
+   "color": [
+    87,
+    8,
+    4
+   ],
+   "sw": 4,
+   "box": [
+    1100,
+    515,
+    1288,
+    573
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_sogeukjang.svg",
+   "color": [
+    87,
+    8,
+    4
+   ],
+   "sw": 2,
+   "box": [
+    1140,
+    610,
+    1234,
+    650
+   ],
+   "align": "center"
+  },
+  {
+   "text": "극단 오모카게",
+   "font": "NotoSerifKR-Medium",
+   "color": [
+    189,
+    130,
+    76
+   ],
+   "box": [
+    880,
+    582,
+    982,
+    605
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_geukdan.svg",
+   "color": [
+    122,
+    13,
+    11
+   ],
+   "sw": 1.5,
+   "box": [
+    80,
+    58,
+    120,
+    80
+   ],
+   "align": "center"
+  },
+  {
+   "svg": "dip_omokage.svg",
+   "color": [
+    122,
+    13,
+    11
+   ],
+   "sw": 2,
+   "box": [
+    50,
+    82,
+    150,
+    108
+   ],
+   "align": "center"
+  }
+ ]
+}

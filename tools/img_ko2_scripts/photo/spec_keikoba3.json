@@ -1,0 +1,41 @@
+{
+ "src": "src_keikoba3.png",
+ "boxes": [
+  {
+   "id": "cov1",
+   "box": [
+    332,
+    1104,
+    478,
+    1166
+   ],
+   "cond": "lum>68",
+   "grow": 3,
+   "minblob": 2
+  },
+  {
+   "id": "cov2",
+   "box": [
+    345,
+    1182,
+    410,
+    1218
+   ],
+   "cond": "lum>68",
+   "grow": 3,
+   "minblob": 2
+  },
+  {
+   "id": "doui",
+   "box": [
+    918,
+    1112,
+    1030,
+    1178
+   ],
+   "cond": "lum<120",
+   "grow": 2,
+   "minblob": 2
+  }
+ ]
+}
