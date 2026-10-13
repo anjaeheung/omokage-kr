@@ -47,6 +47,7 @@ for (var i = 0; i < S.items.length; i++) {
   var ty = (-((bx[1] + bx[3]) / 2)) - ((b[1] + b[3]) / 2);
   tf.translate(tx, ty);
   if (it.rotate) tf.rotate(it.rotate, true, false, false, false, Transformation.CENTER);
+  if (it.shear) { var M = app.getIdentityMatrix(); M.mValueB = Math.tan(it.shear * Math.PI / 180); tf.transform(M, true, false, false, false, 1, Transformation.CENTER); }
   if (it.halo) {
     var hf = tf.duplicate(halo, ElementPlacement.PLACEATBEGINNING);
     var hc = hf.textRange.characterAttributes; hc.fillColor = rgb(it.halo.color); hc.strokeColor = rgb(it.halo.color); hc.strokeWeight = (it.sw || 0) + it.halo.width;

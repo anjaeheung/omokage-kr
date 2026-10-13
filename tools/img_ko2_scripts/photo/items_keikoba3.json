@@ -17,9 +17,9 @@
     130
    ],
    "align": "left",
-   "rotate": -10.5,
    "hfit": true,
-   "pt": 25
+   "pt": 25,
+   "shear": -10.5
   },
   {
    "text": "제10회 공연",
@@ -36,9 +36,9 @@
     171
    ],
    "align": "left",
-   "rotate": -10.0,
    "hfit": true,
-   "pt": 25
+   "pt": 25,
+   "shear": -10.0
   },
   {
    "text": "「봄을 기다리며」",
@@ -55,9 +55,9 @@
     220
    ],
    "align": "left",
-   "rotate": -9.0,
    "hfit": true,
-   "pt": 27
+   "pt": 27,
+   "shear": -9.0
   },
   {
    "text": "주연: 여고생",
@@ -74,9 +74,9 @@
     266
    ],
    "align": "left",
-   "rotate": -6.6,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -6.6
   },
   {
    "text": "장르: 청춘극",
@@ -93,9 +93,9 @@
     294
    ],
    "align": "left",
-   "rotate": -6.0,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -6.0
   },
   {
    "text": "줄거리:",
@@ -112,9 +112,9 @@
     350
    ],
    "align": "left",
-   "rotate": -4.9,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -4.9
   },
   {
    "text": "졸업식까지 앞으로 3주.",
@@ -131,9 +131,9 @@
     384
    ],
    "align": "left",
-   "rotate": -4.2,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -4.2
   },
   {
    "text": "진로도 정하지 못한 채",
@@ -150,9 +150,9 @@
     412
    ],
    "align": "left",
-   "rotate": -3.4,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -3.4
   },
   {
    "text": "교실 구석에서 하루하루를 보낸다.",
@@ -169,9 +169,9 @@
     440
    ],
    "align": "left",
-   "rotate": -2.7,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -2.7
   },
   {
    "text": "방과 후 시청각실에서",
@@ -188,9 +188,9 @@
     466
    ],
    "align": "left",
-   "rotate": -1.9,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -1.9
   },
   {
    "text": "낡은 연극 대본을 발견하면서",
@@ -207,9 +207,9 @@
     496
    ],
    "align": "left",
-   "rotate": -1.1,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -1.1
   },
   {
    "text": "그녀의 시간이 천천히 움직이기 시작한다.",
@@ -226,9 +226,9 @@
     522
    ],
    "align": "left",
-   "rotate": -0.4,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -0.4
   },
   {
    "text": "공연 콘셉트",
@@ -245,9 +245,9 @@
     254
    ],
    "align": "left",
-   "rotate": -9.5,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -9.5
   },
   {
    "text": "기억",
@@ -264,9 +264,9 @@
     294
    ],
    "align": "left",
-   "rotate": -8.8,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -8.8
   },
   {
    "text": "· 시간의 조각",
@@ -283,9 +283,9 @@
     330
    ],
    "align": "left",
-   "rotate": -8.0,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -8.0
   },
   {
    "text": "· 집 / 빈자리",
@@ -302,9 +302,9 @@
     362
    ],
    "align": "left",
-   "rotate": -7.3,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -7.3
   },
   {
    "text": "· 계승",
@@ -321,9 +321,9 @@
     396
    ],
    "align": "left",
-   "rotate": -6.6,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -6.6
   },
   {
    "text": "· 용서",
@@ -340,9 +340,9 @@
     430
    ],
    "align": "left",
-   "rotate": -6.0,
    "hfit": true,
-   "pt": 17
+   "pt": 17,
+   "shear": -6.0
   },
   {
    "text": "봄을 기다리며",
