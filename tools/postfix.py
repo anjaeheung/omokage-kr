@@ -67,6 +67,23 @@ def fix_fonts():
     print("  font    한글 글꼴 링크 %d개 페이지, CSS %d개" % (n, m))
 
 
+def fix_hint_fonts():
+    """힌트 페이지(hint/)는 글꼴 링크·CSS 모양이 본 사이트와 달라 따로 한글 글꼴을 붙인다."""
+    rel = "hint/index.html"; s = read(rel); o = s
+    s = s.replace("family=Shippori+Mincho:wght@500;700",
+                  "family=Shippori+Mincho:wght@500;700&family=Noto+Serif+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500;700")
+    if s == o:
+        FAIL.append("hint fonts: 글꼴 링크를 못 바꿈")
+    write(rel, s)
+    rel = "hint/css/style.css"; c = read(rel); o = c
+    c = re.sub(r'"Shippori Mincho",(\s*)', r'"Shippori Mincho",\1"Noto Serif KR",\1', c)
+    c = re.sub(r'"Hiragino Sans",(\s*)', r'"Hiragino Sans",\1"Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo",\1', c)
+    if c == o:
+        FAIL.append("hint fonts: CSS 를 못 바꿈")
+    write(rel, c)
+    print("  hint    힌트 페이지 한글 글꼴")
+
+
 # 일본어 검색어 → 한국어 검색어(본문에 그대로 보이는 낱말). 띄어쓰기·대소문자는 검색할 때 무시한다.
 SEARCH_KO = {
     "同意書": ["동의서"],
@@ -183,6 +200,7 @@ def fix_keyword_join():
 def main():
     fix_lang_and_host()
     fix_fonts()
+    fix_hint_fonts()
     fix_search()
     fix_no_xshare()
     fix_credit()

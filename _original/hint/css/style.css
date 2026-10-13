@@ -1,0 +1,413 @@
+* {
+
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+
+  background: #f6f4ef;
+
+  color: #4b4741;
+
+  font-family:
+    "Yu Gothic",
+    "Hiragino Sans",
+    sans-serif;
+
+  line-height: 1.9;
+}
+
+.container {
+
+  width: 100%;
+
+  max-width: 860px;
+
+  margin: 0 auto;
+
+  padding:
+    90px 20px
+    120px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.page-header {
+
+  margin-bottom: 70px;
+}
+
+.mini-title {
+
+  margin: 0 0 14px;
+
+  font-size: 0.8rem;
+
+  letter-spacing: 0.18em;
+
+  color: #8f877d;
+
+  text-transform: uppercase;
+}
+
+.page-header h1 {
+
+  margin: 0;
+
+  font-family:
+    "Shippori Mincho",
+    serif;
+
+  font-size: 2.8rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  color: #3f3a34;
+}
+
+.header-line {
+
+  width: 120px;
+
+  height: 1px;
+
+  background: #cfc7bb;
+
+  margin:
+    26px 0 18px;
+}
+
+.sub-title {
+
+  margin: 0;
+
+  font-size: 0.9rem;
+
+  letter-spacing: 0.22em;
+
+  color: #7d766d;
+}
+
+.notice {
+
+  margin-top: 34px;
+
+  font-size: 0.92rem;
+
+  color: #8a847d;
+
+  line-height: 2;
+}
+
+/* =========================
+   LIST
+========================= */
+
+.hint-list {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.hint-card {
+
+  background: #fffdf9;
+
+  border:
+    1px solid #ddd6cc;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+}
+
+/* =========================
+   MAIN ACCORDION
+========================= */
+
+.accordion {
+
+  width: 100%;
+
+  border: none;
+
+  background: none;
+
+  padding:
+    22px 24px;
+
+  text-align: left;
+
+  font-size: 1rem;
+
+  color: #4b4741;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.accordion:hover {
+
+  background: #f2eee8;
+}
+
+.panel {
+
+  display: none;
+
+  padding:
+    0 24px 24px;
+}
+
+/* =========================
+   SUB ACCORDION
+========================= */
+
+.sub-accordion {
+
+  width: 100%;
+
+  border: none;
+
+  background: #f4efe7;
+
+  color: #5a544d;
+
+  text-align: left;
+
+  padding:
+    14px 16px;
+
+  margin-top: 12px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.sub-accordion:hover {
+
+  background: #ebe4d9;
+}
+
+.sub-panel {
+
+  display: none;
+
+  padding:
+    14px 16px 4px;
+
+  color: #5c5650;
+}
+
+.answer-trigger {
+
+  background: #e9e1d6;
+}
+
+.answer-trigger:hover {
+
+  background: #ddd2c4;
+}
+
+.answer-panel {
+
+  color: #4b443d;
+}
+
+/* =========================
+   SP
+========================= */
+
+@media screen and (max-width: 768px) {
+
+  .container {
+
+    padding:
+      60px 16px
+      80px;
+  }
+
+  .page-header {
+
+    margin-bottom: 56px;
+  }
+
+  .page-header h1 {
+
+    font-size: 2rem;
+  }
+
+  .header-line {
+
+    margin:
+      22px 0 16px;
+  }
+
+  .accordion {
+
+    padding:
+      18px 18px;
+  }
+
+  .panel {
+
+    padding:
+      0 18px 18px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+  body {
+
+    font-size: 15px;
+  }
+
+  .container {
+
+    padding:
+      56px 14px
+      80px;
+  }
+
+  /* =========================
+     HEADER
+  ========================= */
+
+  .page-header {
+
+    margin-bottom: 48px;
+  }
+
+  .mini-title {
+
+    font-size: 0.72rem;
+
+    letter-spacing: 0.14em;
+  }
+
+  .page-header h1 {
+
+    font-size: 2rem;
+
+    line-height: 1.4;
+
+    word-break: keep-all;
+  }
+
+  .header-line {
+
+    width: 90px;
+
+    margin:
+      18px 0 14px;
+  }
+
+  .sub-title {
+
+    font-size: 0.8rem;
+
+    letter-spacing: 0.18em;
+  }
+
+  .notice {
+
+    margin-top: 26px;
+
+    font-size: 0.82rem;
+
+    line-height: 1.9;
+  }
+
+  /* =========================
+     CARD
+  ========================= */
+
+  .hint-list {
+
+    gap: 14px;
+  }
+
+  .hint-card {
+
+    border-radius: 12px;
+  }
+
+  /* =========================
+     MAIN ACCORDION
+  ========================= */
+
+  .accordion {
+
+    padding:
+      18px 16px;
+
+    font-size: 0.95rem;
+
+    line-height: 1.8;
+  }
+
+  .panel {
+
+    padding:
+      0 16px 18px;
+  }
+
+  /* =========================
+     SUB ACCORDION
+  ========================= */
+
+  .sub-accordion {
+
+    padding:
+      13px 14px;
+
+    font-size: 0.9rem;
+
+    line-height: 1.8;
+  }
+
+  .sub-panel {
+
+    padding:
+      12px 8px 4px;
+
+    font-size: 0.9rem;
+
+    line-height: 2;
+
+    overflow-wrap: break-word;
+  }
+
+}
+
+.footer {
+
+  margin-top: 80px;
+
+  text-align: center;
+
+  font-size: 0.8rem;
+
+  color: #9a948c;
+
+  letter-spacing: 0.08em;
+}
