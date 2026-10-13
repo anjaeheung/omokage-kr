@@ -1,5 +1,5 @@
 """글자마다 세로 가운데를 맞춘 윤곽선 SVG — Diphylleia 의 오·모(낮음)와 카·게(위아래로 긺)가 한 줄에서 들쭉날쭉해 보이는 것을 고른다.
-사용: python mk_svg_balanced.py 글자 출력.svg [긴글자_세로비율]"""
+사용: python mk_svg_balanced.py 글자 출력.svg [긴글자_세로비율 | 공통높이(폰트 단위)]"""
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.boundsPen import BoundsPen
@@ -13,7 +13,7 @@ CY = 330  # 공통 세로 가운데(폰트 단위)
 x = 0; paths = []
 for ch in text:
     g = gs[cm[ord(ch)]]; b = BoundsPen(gs); g.draw(b); x0, y0, x1, y1 = b.bounds
-    h = y1 - y0; k = tall if h > 800 else 1.0
+    h = y1 - y0; k = (tall / h) if tall > 10 else (tall if h > 800 else 1.0)  # tall>10 이면 모든 글자를 그 높이로
     cy = (y0 + y1) / 2
     sp = SVGPathPen(gs)
     # 폰트 y 위로 → SVG y 아래로: y' = H - (CY + k*(y-cy))
