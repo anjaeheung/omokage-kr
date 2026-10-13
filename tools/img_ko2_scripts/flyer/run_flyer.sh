@@ -5,7 +5,7 @@ $RUN ps "$J/ps_erase.jsx" "{name:\"$N\"}" 2>&1 | grep -o "^ok\|RETRYLATER" | hea
 python -I mk_fix.py $N "$FIX" 120
 $RUN ps "$J/ps_fix.jsx" "{name:\"$N\", blur:8}" 2>&1 | grep -o "^ok\|RETRYLATER" | head -1
 [ "$AI" = yes ] && $RUN ai "$J/ai_place.jsx" "{name:\"$N\"}" 2>&1 | tail -1 | sed 's/[^ -~]//g'
-$RUN ps "$J/ps_final.jsx" "{name:\"$N\", out:\"C:/Users/user/arg/omokage-kr/overrides/images/${N}kouen.png\"}" 2>&1 | grep -o "^ok\|RETRYLATER" | head -1
+$RUN ps "$J/ps_final.jsx" "{name:\"$N\", out:\"C:/Users/user/arg/omokage-kr/overrides/images/${N}kouen.png\"${EXTRA}}" 2>&1 | grep -o "^ok\|RETRYLATER" | head -1
 python -I -c "
 from PIL import Image
 a=Image.open('src_$N.png').convert('RGB'); b=Image.open('../../overrides/images/${N}kouen.png').convert('RGB')

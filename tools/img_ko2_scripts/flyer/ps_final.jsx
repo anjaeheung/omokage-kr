@@ -10,7 +10,11 @@ function addPng(path, name) {
   L = doc.layers[0]; L.name = name; return L;
 }
 if (A.halo !== false) { var h = addPng(D + "halo_" + N + ".png", "halo"); if (HB > 0) h.applyGaussianBlur(HB); h.opacity = HO; }
-addPng(D + "text_" + N + ".png", "text_ko");
+var T = addPng(D + "text_" + N + ".png", "text_ko");
+if (A.soft) { for (var k = 0; k < A.soft.length; k++) { var q = A.soft[k]; doc.activeLayer = T;
+  doc.selection.select([[q[0], q[1]], [q[2], q[1]], [q[2], q[3]], [q[0], q[3]]]);
+  T.applyGaussianBlur(q[4]); T.applyAddNoise(q[5], NoiseDistribution.GAUSSIAN, true); doc.selection.deselect(); } }
+if (A.textOpacity) T.opacity = A.textOpacity;
 var so = new PhotoshopSaveOptions(); so.layers = true; doc.saveAs(new File(D + "final_" + N + ".psd"), so, true);
 doc.saveAs(new File(OUT), new PNGSaveOptions(), true);
 doc.close(SaveOptions.DONOTSAVECHANGES); "ok";
