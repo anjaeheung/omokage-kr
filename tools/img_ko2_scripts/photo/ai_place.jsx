@@ -39,6 +39,9 @@ for (var i = 0; i < S.items.length; i++) {
   if (it.size) s = it.size / h; // 높이를 직접 정할 때
   if (!it.pt) tf.resize(s * 100, s * 100);
   if (it.sw) tf.textRange.characterAttributes.strokeWeight = it.sw; // 획은 크기와 따로
+  if (it.hfit) { // 높이는 상자에 맞추고, 넘치는 폭은 장평으로 줄인다
+    var hb = vb(tf), hh = hb[1] - hb[3]; if (!it.pt) { var k = (bx[3] - bx[1]) / hh; tf.resize(k * 100, k * 100); }
+    hb = vb(tf); var ww = hb[2] - hb[0]; if (ww > bx[2] - bx[0]) tf.textRange.characterAttributes.horizontalScale = 100 * (bx[2] - bx[0]) / ww; }
   b = vb(tf); w = b[2] - b[0]; h = b[1] - b[3];
   var tx = it.align == "center" ? ((bx[0] + bx[2]) / 2 - (b[0] + b[2]) / 2) : it.align == "right" ? (bx[2] - b[2]) : (bx[0] - b[0]);
   var ty = (-((bx[1] + bx[3]) / 2)) - ((b[1] + b[3]) / 2);
