@@ -197,8 +197,25 @@ def fix_keyword_join():
     print("  keyword 단서 낱말 뒤 조사 붙임")
 
 
+HERO_CSS = """
+/* 한국어판: 「극단 오모카게」가 폰에서 「게」만 다음 줄로 떨어지지 않게 — 낱말 중간에서 안 끊고, 좁은 화면에선 글자를 줄여 한 줄에 */
+.hero-title { word-break: keep-all; }
+@media screen and (max-width: 900px) { .hero-title { font-size: min(2.8rem, 10vw); } }
+"""
+
+
+def fix_hero_title():
+    rel = "css/style.css"; s = read(rel)
+    if ".hero-title {" not in s:
+        FAIL.append("hero: .hero-title 없음"); return
+    if "word-break: keep-all" not in s:
+        write(rel, s + HERO_CSS)
+    print("  hero    큰 제목 줄바꿈 막음")
+
+
 def main():
     fix_lang_and_host()
+    fix_hero_title()
     fix_fonts()
     fix_hint_fonts()
     fix_search()
