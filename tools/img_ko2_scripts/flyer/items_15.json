@@ -2,6 +2,6 @@
  {"text": "극단 오모카게", "font": "Gaegu-Bold", "color": [206, 88, 112], "sw": 2.2, "tracking": -60, "box": [60, 136, 380, 202], "align": "left", "halo": {"color": [255, 255, 255], "width": 7}},
  {"text": "제15회 공연", "font": "Gaegu-Bold", "color": [206, 88, 112], "sw": 2.2, "tracking": -60, "box": [60, 222, 372, 292], "align": "left", "halo": {"color": [255, 255, 255], "width": 7}},
  {"text": "봄을 기다리며", "font": "NanumPen-Regular", "color": [206, 88, 112], "sw": 3, "tracking": -20, "box": [70, 375, 790, 598], "align": "left", "halo": {"color": [255, 255, 255], "width": 9}},
- {"text": "출연: 타카기 미사키·아마기 요타·오니시 세이키·오쓰카 아카리", "font": "Gaegu-Bold", "color": [206, 88, 112], "sw": 1.2, "tracking": -70, "box": [60, 680, 745, 720], "align": "left", "halo": {"color": [255, 255, 255], "width": 5}},
+ {"text": "출연: 타카기 미사키·아마기 요타·오니시 세이키·오츠카 아카리", "font": "Gaegu-Bold", "color": [206, 88, 112], "sw": 1.2, "tracking": -70, "box": [60, 680, 745, 720], "align": "left", "halo": {"color": [255, 255, 255], "width": 5}},
  {"text": "티켓은 각종 예매처나 「소극장 오모카게」에서 직접 구매하실 수 있습니다.", "font": "Gaegu-Bold", "color": [206, 88, 112], "sw": 1.2, "tracking": -70, "box": [80, 1412, 975, 1448], "align": "center", "halo": {"color": [255, 255, 255], "width": 5}}
 ]}
